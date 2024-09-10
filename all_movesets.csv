@@ -1,0 +1,134 @@
+Role,Pokemon,Win Rate,Pick Rate,Skill Set
+Speedster,Absol,49.65,3.73,Pursuit/Sucker Punch
+Speedster,Absol,49.49,2.44,Night Slash/Psycho Cut
+Speedster,Absol,49.42,1.5,Pursuit/Psycho Cut
+All-Rounder,Aegislash,47.08,2.39,Sacred Sword/Wide Guard
+All-Rounder,Aegislash,48.85,2.34,Shadow Claw/Wide Guard
+Attacker,Alolan Ninetales,48.18,5.33,Avalanche/Blizzard
+All-Rounder,Azumarill,49.61,3.81,Water Pulse/Aqua Tail
+All-Rounder,Azumarill,47.35,1.35,Play Rough/Whirlpool
+Defender,Blastoise,50.17,10.95,Hydro Pump/Surf
+Defender,Blastoise,51.14,4.33,Water Spout/Rapid Spin
+Defender,Blastoise,49.0,0.98,Hydro Pump/Rapid Spin
+All-Rounder,Blaziken,50.13,3.5,Fire Punch/Focus Blast
+All-Rounder,Blaziken,48.1,3.34,Overheat/Blaze Kick
+Supporter,Blissey,51.42,4.9,Egg Bomb/Soft-Boiled
+All-Rounder,Buzzwole,49.78,5.06,Smack Down/Superpower
+Attacker,Chandelure,48.89,1.82,Flamethrower/Poltergeist
+Attacker,Chandelure,50.84,1.0,Overheat/Imprison
+Attacker,Chandelure,49.44,0.76,Overheat/Poltergeist
+All-Rounder,Charizard,51.25,4.03,Flamethrower/Fire Blast
+All-Rounder,Charizard,49.19,0.89,Fire Punch/Flare Blitz
+All-Rounder,Charizard,46.13,0.77,Fire Punch/Fire Blast
+Attacker,Cinderace,46.29,2.58,Pyro Ball/Flame Charge
+Attacker,Cinderace,50.45,2.23,Blaze Kick/Flame Charge
+Attacker,Cinderace,47.0,1.49,Blaze Kick/Feint
+Attacker,Cinderace,46.76,1.41,Pyro Ball/Feint
+Supporter,Clefable,51.9,17.26,Moonlight/Gravity
+Supporter,Clefable,51.91,2.57,Moonlight/Follow Me
+Supporter,Comfey,47.56,5.1,Floral Healing/Magical Leaf
+Supporter,Comfey,49.08,1.91,Floral Healing/Grass Knot
+Attacker,Cramorant,49.57,1.13,Dive/Air Slash
+Attacker,Cramorant,48.85,0.87,Surf/Hurricane
+Defender,Crustle,51.02,5.81,Shell Smash/X-Scissor
+Defender,Crustle,52.15,2.33,Rock Tomb/X-Scissor
+Defender,Crustle,52.19,1.07,Rock Tomb/Stealth Rock
+Attacker,Decidueye,49.56,9.25,Spirit Shackle/Shadow Sneak
+Attacker,Decidueye,49.0,1.79,Razor Leaf/Shadow Sneak
+Attacker,Decidueye,45.9,1.61,Razor Leaf/Leaf Storm
+Attacker,Decidueye,46.62,0.89,Spirit Shackle/Leaf Storm
+Attacker,Delphox,48.74,2.89,Fire Blast/Fire Spin
+Attacker,Delphox,50.87,1.52,Mystical Fire/Flame Charge
+Speedster,Dodrio,51.77,4.01,Drill Peck/Jump Kick
+Speedster,Dodrio,50.15,0.79,Tri Attack/Agility
+Attacker,Dragapult,49.07,1.43,Dragon Breath/Dragon Dance
+All-Rounder,Dragonite,49.94,3.06,Extreme Speed/Outrage
+All-Rounder,Dragonite,50.67,2.12,Dragon Dance/Outrage
+All-Rounder,Dragonite,51.26,1.17,Dragon Dance/Hyper Beam
+Supporter,Eldegoss,51.68,5.3,Pollen Puff/Cotton Spore
+Supporter,Eldegoss,50.87,2.95,Pollen Puff/Cotton Guard
+Attacker,Espeon,49.94,6.49,Stored Power/Psybeam
+Attacker,Espeon,47.81,2.9,Stored Power/Future Sight
+Attacker,Espeon,46.61,2.12,Psyshock/Psybeam
+All-Rounder,Garchomp,51.6,2.65,Dragon Rush/Dragon Claw
+Attacker,Gardevoir,50.12,3.18,Psychic/Psyshock
+Attacker,Gardevoir,49.38,1.85,Moonblast/Psyshock
+Attacker,Gardevoir,48.2,1.33,Moonblast/Future Sight
+Attacker,Gardevoir,48.82,1.16,Psychic/Future Sight
+Speedster,Gengar,46.86,3.35,Shadow Ball/Dream Eater
+Speedster,Gengar,49.76,1.08,Sludge Bomb/Hex
+Attacker,Glaceon,49.92,15.72,Icicle Spear/Ice Shard
+Defender,Goodra,46.76,3.03,Dragon Pulse/Power Whip
+Defender,Goodra,46.63,1.51,Dragon Pulse/Acid Spray
+Defender,Goodra,49.5,0.77,Muddy Water/Power Whip
+Defender,Greedent,47.6,1.01,Bullet Seed/Stuff Cheeks
+Attacker,Greninja,47.24,3.28,Water Shuriken/Double Team
+Attacker,Greninja,50.15,3.13,Surf/Smokescreen
+Attacker,Greninja,47.47,1.26,Surf/Double Team
+Supporter,Hoopa,51.74,10.06,Phantom Force/Hyperspace Hole
+Attacker,Inteleon,52.5,15.6,Acrobatics/Liquidation
+Attacker,Inteleon,51.57,5.92,Fell Stinger/Snipe Shot
+Attacker,Inteleon,49.22,3.05,Fell Stinger/Liquidation
+Defender,Lapras,52.18,4.16,Water Pulse/Ice Beam
+Defender,Lapras,48.81,2.25,Perish Song/Ice Beam
+Defender,Lapras,49.29,1.17,Water Pulse/Bubble Beam
+Speedster,Leafeon,47.15,3.65,Solar Blade/Leaf Blade
+Speedster,Leafeon,46.56,1.38,Razor Leaf/Leaf Blade
+All-Rounder,Lucario,50.02,2.59,Power-Up Punch/Close Combat
+All-Rounder,Lucario,47.83,2.53,Extreme Speed/Bone Rush
+All-Rounder,Machamp,51.55,1.4,Cross Chop/Dynamic Punch
+All-Rounder,Machamp,49.77,1.15,Close Combat/Dynamic Punch
+All-Rounder,Machamp,47.5,0.86,Cross Chop/Submission
+Defender,Mamoswine,49.21,2.21,Icicle Crash/High Horsepower
+Defender,Mamoswine,49.79,1.85,Ice Fang/Earthquake
+Defender,Mamoswine,45.84,1.38,Ice Fang/High Horsepower
+Defender,Mamoswine,52.52,0.76,Icicle Crash/Earthquake
+Attacker,Mew,52.74,18.29,All
+All-Rounder,MewtwoX,52.59,3.69,Psystrike/Recover
+All-Rounder,MewtwoX,49.71,2.21,Future Sight/Recover
+All-Rounder,MewtwoX,50.17,0.77,Psystrike/Teleport
+Attacker,MewtwoY,54.99,4.19,Future Sight/Teleport
+Attacker,MewtwoY,52.59,3.24,Psystrike/Teleport
+Attacker,MewtwoY,51.28,1.52,Future Sight/Recover
+Attacker,MewtwoY,50.11,1.19,Psystrike/Recover
+All-Rounder,Mimikyu,51.56,30.35,Play Rough/Shadow Sneak
+All-Rounder,Mimikyu,48.77,2.17,Shadow Claw/Shadow Sneak
+Supporter,Mr. Mime,49.99,1.51,Confusion/Barrier
+Supporter,Mr. Mime,51.47,0.75,Psychic/Power Swap
+Attacker,Pikachu,48.77,5.77,Thunder/Thunderbolt
+Attacker,Pikachu,48.21,2.99,Electro Ball/Volt Tackle
+Attacker,Pikachu,46.69,1.53,Thunder/Volt Tackle
+Supporter,Sableye,47.87,1.77,Knock Off/Confuse Ray
+All-Rounder,Scizor,47.52,2.65,Bullet Punch/Swords Dance
+Speedster,Scyther,45.37,1.45,Dual Wingbeat/Double Hit
+All-Rounder,Scizor,46.28,1.4,Bullet Punch/Double Hit
+Defender,Slowbro,50.04,5.08,Scald/Amnesia
+Defender,Slowbro,51.42,3.84,Surf/Amnesia
+Defender,Slowbro,50.43,3.71,Surf/Telekinesis
+Defender,Slowbro,47.79,1.99,Scald/Telekinesis
+Defender,Snorlax,51.6,5.24,Heavy Slam/Yawn
+Defender,Snorlax,48.61,2.16,Heavy Slam/Block
+Attacker,Sylveon,47.15,2.61,Mystical Fire/Draining Kiss
+Attacker,Sylveon,49.28,0.9,Hyper Voice/Calm Mind
+Speedster,Talonflame,48.87,3.47,Flame Charge/Fly
+Speedster,Talonflame,46.88,3.25,Aerial Ace/Brave Bird
+Speedster,Talonflame,46.45,1.16,Aerial Ace/Fly
+Defender,Trevenant,51.5,9.42,Wood Hammer/Horn Leech
+All-Rounder,Tyranitar,51.14,1.93,Dark Pulse/Ancient Power
+Defender,Umbreon,49.26,6.74,Mean Look/Wish
+Defender,Umbreon,49.98,5.26,Mean Look/Snarl
+Defender,Umbreon,51.1,3.7,Foul Play/Snarl
+All-Rounder,Urshifu,51.89,6.74,Rapid Strike Style
+All-Rounder,Urshifu,50.17,0.96,Single Strike Style
+Attacker,Venusaur,47.76,6.61,Sludge Bomb/Solar Beam
+Attacker,Venusaur,48.12,4.48,Giga Drain/Solar Beam
+Attacker,Venusaur,48.55,4.3,Giga Drain/Petal Dance
+Supporter,Wigglytuff,49.34,2.07,Double Slap/Sing
+All-Rounder,Zacian,55.09,10.65,Sacred Sword/Agility
+All-Rounder,Zacian,49.47,1.1,Sacred Sword/Play Rough
+Speedster,Zeraora,49.12,2.81,Spark/Discharge
+Speedster,Zeraora,47.32,2.01,Volt Switch/Discharge
+Speedster,Zeraora,46.65,1.16,Spark/Wild Charge
+Speedster,Zoroark,49.18,4.54,Cut/Night Slash
+Speedster,Zoroark,49.61,4.37,Shadow Claw/Feint Attack
+Speedster,Zoroark,45.62,1.54,Shadow Claw/Night Slash
