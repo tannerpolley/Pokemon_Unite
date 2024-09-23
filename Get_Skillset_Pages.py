@@ -1,28 +1,40 @@
 import pyautogui
 from pathlib import Path
 import time
+import os
+from pynput import *
+
+# def get_coords(x, y):
+#     print(x, y)
+#
+# with mouse.Listener(on_move = get_coords) as listen:
+#     listen.join()
 
 
 # Need to setup default save location
 
-path = r'C:\Users\Tanner\Google Drive\Documents\Programming\Python\Python_Scripts\Pokemon_Unite\Pokemon_Sites'
+path = r'C:\Users\Tanner\Documents\git\Pokemon_Unite\Pokemon_Sites'
 new_week = True
 
 if new_week:
 
-    files = [f.unlink() for f in Path(path).glob("*") if f.is_file()]
+    files = [f.unlink() for f in Path(path).glob("*") if f.is_file() or f.is_dir()]
 
-height = 950
-rows = 5
+height = 625
+rows = 6
 columns = 13
 for i in range(rows):
 
-    width = 890
+    width = -1865
     for j in range(columns):
-        if i == 4 and j == 7:
+        if i == 5 and j == 2:
 
             break
         else:
+            pyautogui.moveTo(width, height)
+            time.sleep(.5)
+            pyautogui.scroll(-240)
+            time.sleep(.5)
             pyautogui.click(width, height)
             time.sleep(4)
             pyautogui.hotkey("ctrlleft", "s")
@@ -31,6 +43,6 @@ for i in range(rows):
             time.sleep(2)
             pyautogui.hotkey("altleft", "left")
             time.sleep(2)
-            width += 162
+            width += 106
 
-    height += 185
+    height += 132
