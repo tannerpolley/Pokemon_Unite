@@ -1,49 +1,65 @@
 from flask import Flask, render_template, request
 import pandas as pd
 
-# Step 1: Load the Excel data into a pandas DataFrame
-df = pd.read_csv('all_movesets.csv')
-
-# Step 2: Initialize the Flask app
 app = Flask(__name__)
 
-# Step 3: Create a route for the home page
-@app.route('/', methods=['GET', 'POST'])
-def index():
-    # Retrieve role filters and other filters from the request (if any)
-    selected_roles = request.form.getlist('role') if request.method == 'POST' else []
-    column_filter = request.form.get('column_filter', '')
-    filter_operator = request.form.get('filter_operator', 'contains')
-    value_filter = request.form.get('value_filter', '')
+# Read the CSV file when the application starts
+df = pd.read_csv('all_movesets.csv')
+sortable_columns = df.columns.tolist()  # Ensure this is defined at the top
 
-    # Filter the DataFrame based on selected roles
+@app.route('/', methods=['GET'])
+def index():
+    # Get filter parameters from the request
+    selected_roles = request.args.getlist('roles')
+    win_rate_min = request.args.get('win_rate_min', type=float)
+    win_rate_max = request.args.get('win_rate_max', type=float)
+    pick_rate_min = request.args.get('pick_rate_min', type=float)
+    pick_rate_max = request.args.get('pick_rate_max', type=float)
+    sort_column = request.args.get('sort_column', default=sortable_columns[0])
+    sort_order = request.args.get('sort_order', 'asc')
+
+    # Start with the full dataframe
     filtered_df = df.copy()
+
+    # Filter by roles if any are selected
     if selected_roles:
         filtered_df = filtered_df[filtered_df['Role'].isin(selected_roles)]
 
-    # Filter the DataFrame based on column values and operator
-    if column_filter and value_filter:
-        try:
-            # Numeric comparison for greater than / less than
-            if filter_operator == 'greater_than':
-                filtered_df = filtered_df[filtered_df[column_filter].astype(float) > float(value_filter)]
-            elif filter_operator == 'less_than':
-                filtered_df = filtered_df[filtered_df[column_filter].astype(float) < float(value_filter)]
-            # Textual or exact match filter
-            else:
-                filtered_df = filtered_df[filtered_df[column_filter].astype(str).str.contains(value_filter, case=False, na=False)]
-        except ValueError:
-            # Handle cases where conversion to float fails (non-numeric data)
-            pass
+    # Filter by Win Rate
+    if win_rate_min is not None:
+        filtered_df = filtered_df[filtered_df['Win Rate'] >= win_rate_min]
+    if win_rate_max is not None:
+        filtered_df = filtered_df[filtered_df['Win Rate'] <= win_rate_max]
 
-    # Convert the filtered DataFrame to HTML and add bootstrap classes for styling
-    table_html = filtered_df.to_html(classes='table table-striped table-bordered', index=False)
+    # Filter by Pick Rate
+    if pick_rate_min is not None:
+        filtered_df = filtered_df[filtered_df['Pick Rate'] >= pick_rate_min]
+    if pick_rate_max is not None:
+        filtered_df = filtered_df[filtered_df['Pick Rate'] <= pick_rate_max]
 
-    # Get column names for column-specific filtering
-    columns = df.columns.tolist()
+    # Sorting
+    if sort_column in sortable_columns:
+        filtered_df = filtered_df.sort_values(by=sort_column, ascending=(sort_order == 'asc'))
 
-    return render_template('index.html', table=table_html, selected_roles=selected_roles, columns=columns, column_filter=column_filter, filter_operator=filter_operator, value_filter=value_filter)
+    # Exclude the index when passing data to the template
+    data = filtered_df.to_dict(orient='records')
+    columns = filtered_df.columns.tolist()
+    roles = ['Attacker', 'Speedster', 'All-Rounder', 'Supporter', 'Defender']
 
-# Step 4: Run the app
+    return render_template(
+        'index.html',
+        data=data,
+        columns=columns,
+        roles=roles,
+        selected_roles=selected_roles,
+        win_rate_min=win_rate_min if win_rate_min is not None else '',
+        win_rate_max=win_rate_max if win_rate_max is not None else '',
+        pick_rate_min=pick_rate_min if pick_rate_min is not None else '',
+        pick_rate_max=pick_rate_max if pick_rate_max is not None else '',
+        sort_column=sort_column,
+        sort_order=sort_order,
+        sortable_columns=sortable_columns
+    )
+
 if __name__ == '__main__':
     app.run(debug=True)
