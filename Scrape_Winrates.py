@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import os
 import json
 import pandas as pd
+import requests
 import numpy as np
 import gspread as gc
 from Fix_Hoopa_Winrate import fix_hoopa_winrate, fix_comfey_winrate
@@ -30,8 +31,6 @@ with open('Unite API _ Pokémon Unite Meta Tierlist.html', 'r') as fp:
         win_rate_num.append(float(pokemon_win_rate.div.text[:-2]))
         ban_rate_num.append(float(pokemon_ban_rate.div.text[:-2]))
 
-
-
     pick_rate_name = []
     win_rate_name = []
     ban_rate_name = []
@@ -42,7 +41,6 @@ with open('Unite API _ Pokémon Unite Meta Tierlist.html', 'r') as fp:
         pick_rate_name.append(pick_mon_name['src'][19:-4])
         win_rate_name.append(win_mon_name['src'][19:-4])
         ban_rate_name.append(ban_mon_name['src'][19:-4])
-
 
 # print(pick_rate_num)
 # Change File Names that dont match
@@ -96,15 +94,13 @@ for k, v in win_rate_dict.items():
         k3 = k
     names.append(k3)
 
-
 df = pd.DataFrame(combined_dict, index=names)
-print(df)
+
 df.to_csv('Unite_Meta.csv')
 #
 # #%%
 #
 df = pd.read_csv('Unite_Meta.csv', index_col=0)
-
 
 win_rate_dict = {}
 pick_rate_dict = {}
@@ -114,8 +110,6 @@ for i, row in df.iterrows():
     pick_rate_dict[i] = row['Pick Rate']
     ban_rate_dict[i] = row['Ban Rate']
 
-
-print(pick_rate_dict)
 with open("roles.json") as f_in:
     role_dict = json.load(f_in)
 #
@@ -130,7 +124,7 @@ files = os.listdir(path)
 all_movesets = []
 
 for file in files:
-    name = file[35:-5]
+    Pokemon_name = file[35:-5]
 
     with open(path + '\\' + file, 'r') as fp:
 
@@ -138,21 +132,31 @@ for file in files:
 
         builds = []
         for i, build_block in enumerate(soup.find_all('div', class_='sc-a9315c2e-0 dNgHcB')):
-            build_i = {'Pokemon': name, 'Role': role_dict[name]}
+            build_i = {'Name': Pokemon_name, 'Role': role_dict[Pokemon_name]}
 
-            if name == 'Mew' and i == 0:
-                build_i = {'Pokemon': name, 'Role': role_dict[name], 'Pick Rate': pick_rate_dict[name],
-                           'Win Rate': win_rate_dict[name], 'Skill Set': 'All'}
+            if Pokemon_name == 'Mew' and i == 0:
+                move_1_file = 'images/Moves/' + 'Mew' + ' - ' + 'Solar Beam' + '.png'
+                move_2_file = 'images/Moves/' + 'Mew' + ' - ' + 'Light Screen' + '.png'
+                build_i = {'Name': Pokemon_name, 'Pokemon': 'images/Pokemon/' + Pokemon_name + '.png',
+                           'Role': role_dict[Pokemon_name],
+                           'Pick Rate': pick_rate_dict[Pokemon_name],
+                           'Win Rate': win_rate_dict[Pokemon_name], 'Move Set': 'All',
+                           'Move 1': move_1_file, 'Move 2': move_2_file}
                 all_movesets.append(build_i)
                 continue
 
-            if name == 'Blaziken' and i == 0:
-                build_i = {'Pokemon': name, 'Role': role_dict[name], 'Pick Rate': pick_rate_dict[name],
-                           'Win Rate': win_rate_dict[name], 'Skill Set': 'All'}
+            if Pokemon_name == 'Blaziken' and i == 0:
+                move_1_file = 'images/Moves/' + 'Blaziken' + ' - ' + 'Overheat' + '.png'
+                move_2_file = 'images/Moves/' + 'Blaziken' + ' - ' + 'Blaze Kick' + '.png'
+                build_i = {'Name': Pokemon_name, 'Pokemon': 'images/Pokemon/' + Pokemon_name + '.png',
+                           'Role': role_dict[Pokemon_name],
+                           'Pick Rate': pick_rate_dict[Pokemon_name],
+                           'Win Rate': win_rate_dict[Pokemon_name], 'Move Set': 'All',
+                           'Move 1': move_1_file, 'Move 2': move_2_file}
                 all_movesets.append(build_i)
                 continue
 
-            if (name == 'Mew' or name == 'Blaziken') and i > 0:
+            if (Pokemon_name == 'Mew' or Pokemon_name == 'Blaziken') and i > 0:
                 continue
 
             for j, column in enumerate(build_block.find_all('div', class_='sc-a9315c2e-2 SBHRg')):
@@ -164,18 +168,52 @@ for file in files:
 
                 if j < 2:
                     if j == 0:
-                        numb = str(float(numb[:-2]) * pick_rate_dict[name] / 100) + ' %'
+                        numb = str(float(numb[:-2]) * pick_rate_dict[Pokemon_name] / 100) + ' %'
 
                     build_i[text] = float(numb[:-2])
 
                 elif j == 2:
-                    Skill_1 = text
+                    move_1_name = text
+                    if move_1_name == 'Dual Wingbeat':
+                        Pokemon_name_2 = 'Scyther'
+                        build_i['Role'] = 'Speedster'
+                        build_i['Name'] = Pokemon_name_2
+                    else:
+                        Pokemon_name_2 = Pokemon_name
+
+                    # img_tag = column.find('img', {'src': lambda src: src and '.png' in src})
+                    # img_url = img_tag['src']
+                    # img_url = 'https://uniteapi.dev' + img_url
+                    # img_response = requests.get(img_url)
+                    move_1_pic_file = 'images/Moves/' + Pokemon_name_2 + ' - ' + move_1_name + '.png'
+                    # with open(move_1_pic_file, 'wb') as f:
+                    #     f.write(img_response.content)
 
                 elif j == 3:
-                    Skill_2 = text
+                    move_2_name = text
+                    if move_1_name == 'Dual Wingbeat':
+                        Pokemon_name_2 = 'Scyther'
+                        build_i['Role'] = 'Speedster'
+                    else:
+                        Pokemon_name_2 = Pokemon_name
 
-            if name != 'Mew':
-                build_i['Skill Set'] = Skill_1 + '/' + Skill_2
+                    # img_tag = column.find('img', {'src': lambda src: src and '.png' in src})
+                    # img_url = img_tag['src']
+                    # img_url = 'https://uniteapi.dev' + img_url
+                    # img_response = requests.get(img_url)
+                    move_2_pic_file = 'images/Moves/' + Pokemon_name_2 + ' - ' + move_2_name + '.png'
+                    # with open(move_2_pic_file, 'wb') as f:
+                    #     f.write(img_response.content)
+
+            if Pokemon_name != 'Mew' or Pokemon_name != 'Blaziken':
+                build_i['Move Set'] = move_1_name + '/' + move_2_name
+                build_i['Move 1'] = move_1_pic_file
+                build_i['Move 2'] = move_2_pic_file
+            if move_1_name == 'Surging Strikes':
+                Pokemon_name_2 = 'Urshifu_Rapid'
+            elif move_1_name == 'Wicked Blow':
+                Pokemon_name_2 = 'Urshifu_Single'
+            build_i['Pokemon'] = 'images/Pokemon/' + Pokemon_name_2 + '.png'
 
             all_movesets.append(build_i)
 
@@ -184,40 +222,32 @@ for file in files:
 pd.options.display.float_format = '{:.2f}%'.format
 df = pd.DataFrame(all_movesets)
 
-columns_titles = ["Pokemon", "Role", "Win Rate", "Pick Rate", "Skill Set"]
+columns_titles = ["Name", "Pokemon", "Move Set", "Win Rate", "Pick Rate", "Role", "Move 1", "Move 2"]
 df = df.reindex(columns=columns_titles)
 
 #
 # Fix Hoopa Winrates
 
-pokemon = df['Pokemon'].to_list()
-indicies = []
-for i in range(len(pokemon)):
-    if pokemon[i] == 'Hoopa':
-        indicies.append(i)
-
 win_rate = win_rate_dict['Hoopa']
 pick_rate = pick_rate_dict['Hoopa']
 
-win_rates = []
-pick_rates = []
-for i in indicies:
-    win_rates.append(df.iloc[i, 2])
-    pick_rates.append(df.iloc[i, 3] / pick_rate_dict['Hoopa'] * 100)
-
-win_rates, pick_rates = fix_hoopa_winrate(pick_rates, win_rates, pick_rate, win_rate)
+df_hoopa = df[df['Name'] == 'Hoopa']
+df_hoopa_fix = fix_hoopa_winrate(df_hoopa, pick_rate, win_rate, pick_rate_dict)
+df = df[df['Name'] != 'Hoopa']
+df = pd.concat([df, df_hoopa_fix], ignore_index=True)
+df = df.sort_values(by='Name').reset_index(drop=True)
 # print(win_rates)
-pick_rates = np.round(pick_rates * pick_rate_dict['Hoopa'] / 100, 4)
-
-skillsets = ['Phantom Force/Hyperspace Hole', 'Shadow Ball/Trick', 'Shadow Ball/Hyperspace Hole', 'Phantom Force/Trick']
-for i, j in zip(indicies, range(len(win_rates))):
-    df.iloc[i, 2] = win_rates[j]
-    df.iloc[i, 3] = pick_rates[j]
-    df.iloc[i, 4] = skillsets[j]
+# pick_rates = np.round(pick_rates * pick_rate_dict['Hoopa'] / 100, 4)
+#
+# skillsets = ['Phantom Force/Hyperspace Hole', 'Shadow Ball/Trick', 'Shadow Ball/Hyperspace Hole', 'Phantom Force/Trick']
+# for i, j in zip(indicies, range(len(win_rates))):
+#     df.loc[i, 'Win Rate'] = win_rates[j]
+#     df.loc[i, 'Pick Rate'] = pick_rates[j]
+#     df.loc[i, 'Move set'] = skillsets[j]
 
 # Fix Comfey Winrates
 
-pokemon = df['Skill Set'].to_list()
+pokemon = df['Move Set'].to_list()
 name = 'Comfey'
 
 indicies = []
@@ -230,54 +260,28 @@ pick_rate = pick_rate_dict[name]
 win_rates = []
 pick_rates = []
 for i in indicies:
-    win_rates.append(df.iloc[i, 2])
-    pick_rates.append(df.iloc[i, 3] / pick_rate_dict[name] * 100)
+    win_rates.append(df.loc[i, 'Win Rate'])
+    pick_rates.append(df.loc[i, 'Pick Rate'] / pick_rate_dict[name] * 100)
 
 pick_rate, win_rate = fix_comfey_winrate(pick_rates, win_rates, pick_rate, win_rate)
 pick_rate = np.round(pick_rate * pick_rate_dict[name] / 100, 4)
 
-df.iloc[indicies[0], 2] = win_rate
-df.iloc[indicies[0], 3] = pick_rate
+df.loc[indicies[0], 'Win Rate'] = win_rate
+df.loc[indicies[0], 'Pick Rate'] = pick_rate
 df.drop(index=indicies[1], inplace=True)
-
-#
-pokemon = df['Skill Set'].to_list()
-indicies = []
-for i in range(len(pokemon)):
-    if pokemon[i] == 'Dual Wingbeat/Double Hit':
-        indicies.append(i)
-
-df.iloc[indicies[0], 0] = 'Speedster'
-df.iloc[indicies[0], 1] = 'Scyther'
-
-#
-pokemon = df['Skill Set'].to_list()
-indicies = []
-for i in range(len(pokemon)):
-    if pokemon[i] == 'Surging Strikes/Liquidation':
-        indicies.append(i)
-
-df.iloc[indicies[0], 4] = 'Rapid Strike Style'
-
-indicies = []
-for i in range(len(pokemon)):
-    if pokemon[i] == 'Wicked Blow/Throat Chop':
-        indicies.append(i)
-
-df.iloc[indicies[0], 4] = 'Single Strike Style'
 
 #%%
 df['Pick Rate'] = df['Pick Rate'].round(2)
 df['Win Rate'] = df['Win Rate'].round(2)
 # df = df[df['Pick Rate'] >= .75]
 df.to_csv('all_movesets.csv', index=False)
-
-
-#%%
-import gspread
-gc = gspread.service_account(filename='service_account.json')
-
-sh = gc.open("Unite Skillset Winrates")
-worksheet = sh.get_worksheet(0)
-worksheet.clear()
-worksheet.update([df.columns.values.tolist()] + df.values.tolist(), 'A1')
+#
+#
+# #%%
+# import gspread
+# gc = gspread.service_account(filename='service_account.json')
+#
+# sh = gc.open("Unite Skillset Winrates")
+# worksheet = sh.get_worksheet(0)
+# worksheet.clear()
+# worksheet.update([df.columns.values.tolist()] + df.values.tolist(), 'A1')

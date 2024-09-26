@@ -49,16 +49,16 @@
 
             // Get current sort column and order
             const currentSortColumn = urlParams.get('sort_column');
-            const currentSortOrder = urlParams.get('sort_order') || 'asc';
+            const currentSortOrder = urlParams.get('sort_order') || 'desc';
 
             // Determine new sort order
             let newSortOrder;
             if (currentSortColumn === column) {
                 // Toggle sort order
-                newSortOrder = currentSortOrder === 'asc' ? 'desc' : 'asc';
+                newSortOrder = currentSortOrder === 'desc' ? 'asc' : 'desc';
             } else {
                 // Default to ascending when a new column is clicked
-                newSortOrder = 'asc';
+                newSortOrder = 'desc';
             }
 
             // Update sorting parameters
@@ -148,7 +148,17 @@
             {% for row in data %}
                 <tr>
                     {% for column in columns %}
-                        <td>{{ row[column] }}</td>
+                        {% if column in ['Pokemon', 'Move 1', 'Move 2'] %}
+                            <td>
+                                <img
+                                    src="{{ url_for('static', filename=row[column]) }}"
+                                    alt="{{ column }}"
+                                    width="100"
+                                >
+                            </td>
+                        {% else %}
+                            <td>{{ row[column] }}</td>
+                        {% endif %}
                     {% endfor %}
                 </tr>
             {% endfor %}

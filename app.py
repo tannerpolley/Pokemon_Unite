@@ -15,8 +15,8 @@ def index():
     win_rate_max = request.args.get('win_rate_max', type=float)
     pick_rate_min = request.args.get('pick_rate_min', type=float)
     pick_rate_max = request.args.get('pick_rate_max', type=float)
-    sort_column = request.args.get('sort_column', default=sortable_columns[0])
-    sort_order = request.args.get('sort_order', 'asc')
+    sort_column = request.args.get('sort_column', default='Win Rate')
+    sort_order = request.args.get('sort_order', 'desc')
 
     # Start with the full dataframe
     filtered_df = df.copy()
@@ -38,8 +38,12 @@ def index():
         filtered_df = filtered_df[filtered_df['Pick Rate'] <= pick_rate_max]
 
     # Sorting
+    # Exclude image columns from sorting
+    image_columns = ['Pokemon', 'Move 1', 'Move 2']
+    sortable_columns = [col for col in df.columns if col not in image_columns]
+
     if sort_column in sortable_columns:
-        filtered_df = filtered_df.sort_values(by=sort_column, ascending=(sort_order == 'asc'))
+        filtered_df = filtered_df.sort_values(by=sort_column, ascending=(sort_order == 'desc'))
 
     # Exclude the index when passing data to the template
     data = filtered_df.to_dict(orient='records')
