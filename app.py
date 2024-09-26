@@ -43,7 +43,7 @@ def index():
     sortable_columns = [col for col in df.columns if col not in image_columns]
 
     if sort_column in sortable_columns:
-        filtered_df = filtered_df.sort_values(by=sort_column, ascending=(sort_order == 'desc'))
+        filtered_df = filtered_df.sort_values(by=sort_column, ascending=(sort_order == 'asc'))
 
     # Exclude the index when passing data to the template
     data = filtered_df.to_dict(orient='records')
