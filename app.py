@@ -11,8 +11,7 @@ sortable_columns = df.columns.tolist()  # Ensure this is defined at the top
 def index():
     # Get filter parameters from the request
     selected_roles = request.args.getlist('roles')
-    win_rate_min = request.args.get('win_rate_min', type=float)
-    win_rate_max = request.args.get('win_rate_max', type=float)
+    name_filter = request.args.get('name', '')
     pick_rate_min = request.args.get('pick_rate_min', type=float)
     pick_rate_max = request.args.get('pick_rate_max', type=float)
     sort_column = request.args.get('sort_column', default='Win Rate')
@@ -25,11 +24,9 @@ def index():
     if selected_roles:
         filtered_df = filtered_df[filtered_df['Role'].isin(selected_roles)]
 
-    # Filter by Win Rate
-    if win_rate_min is not None:
-        filtered_df = filtered_df[filtered_df['Win Rate'] >= win_rate_min]
-    if win_rate_max is not None:
-        filtered_df = filtered_df[filtered_df['Win Rate'] <= win_rate_max]
+    # Filter data based on Name filter
+    if name_filter:
+        filtered_df = filtered_df[filtered_df['Name'] == name_filter]  # Filter case-insensitive
 
     # Filter by Pick Rate
     if pick_rate_min is not None:
@@ -55,9 +52,8 @@ def index():
         data=data,
         columns=columns,
         roles=roles,
+        name=name_filter,
         selected_roles=selected_roles,
-        win_rate_min=win_rate_min if win_rate_min is not None else '',
-        win_rate_max=win_rate_max if win_rate_max is not None else '',
         pick_rate_min=pick_rate_min if pick_rate_min is not None else '',
         pick_rate_max=pick_rate_max if pick_rate_max is not None else '',
         sort_column=sort_column,

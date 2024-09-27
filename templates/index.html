@@ -47,7 +47,7 @@
                 margin-bottom: 10px;
                 width: 100%;
                 font-size: 0.9rem;        /* Set smaller font size for consistency */
-                max-width: 800px; /* Max width for the centered section */
+                max-width: 950px; /* Max width for the centered section */
                 max-height: 120px; /* Max width for the centered section */
             }
 
@@ -116,7 +116,7 @@
                 padding: 5px;
                 text-align: center;
                 vertical-align: middle;
-                font-size: 1.3rem; /* Smaller input font */
+                font-size: 1.2rem; /* Smaller input font */
             }
 
             /* Table Header */
@@ -217,8 +217,17 @@
             <div class="filters-container">
                 <form method="GET" id="filter-form" class="mb-4">
                     <h2>Filters</h2>
+
                     <!-- Roles Filter -->
                     <div class="filters-flex">
+
+                                    <!-- Name Filter -->
+                        <div class="filter-group">
+                            <h3 style="margin-right: 10px;">Name:</h3>
+                            <input type="text" class="form-control" name="name" placeholder="Search by name"
+                                   value="{{ name }}" onchange="autoSubmitForm()" style="width: 150px;">
+                        </div>
+
                         <!-- Roles Filter -->
                         <div class="filter-group">
                             <h3>Roles:</h3>
@@ -241,7 +250,9 @@
                                        value="{{ pick_rate_min }}" onchange="autoSubmitForm()">
                             </div>
                         </div>
+
                     </div>
+
                 </form>
             </div>
             <div class="table-container">
