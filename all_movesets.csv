@@ -1,244 +1,251 @@
 Name,Pokemon,Move Set,Win Rate,Pick Rate,Role,Move 1,Move 2
-Absol,images/Pokemon/Absol.png,Pursuit/Sucker Punch,50.11,8.48,Speedster,images/Moves/Absol - Pursuit.png,images/Moves/Absol - Sucker Punch.png
-Absol,images/Pokemon/Absol.png,Pursuit/Psycho Cut,50.72,7.5,Speedster,images/Moves/Absol - Pursuit.png,images/Moves/Absol - Psycho Cut.png
-Absol,images/Pokemon/Absol.png,Night Slash/Psycho Cut,48.73,2.6,Speedster,images/Moves/Absol - Night Slash.png,images/Moves/Absol - Psycho Cut.png
-Absol,images/Pokemon/Absol.png,Night Slash/Sucker Punch,46.3,0.42,Speedster,images/Moves/Absol - Night Slash.png,images/Moves/Absol - Sucker Punch.png
-Aegislash,images/Pokemon/Aegislash.png,Sacred Sword/Wide Guard,48.43,5.05,All-Rounder,images/Moves/Aegislash - Sacred Sword.png,images/Moves/Aegislash - Wide Guard.png
-Aegislash,images/Pokemon/Aegislash.png,Shadow Claw/Wide Guard,48.06,2.49,All-Rounder,images/Moves/Aegislash - Shadow Claw.png,images/Moves/Aegislash - Wide Guard.png
-Aegislash,images/Pokemon/Aegislash.png,Shadow Claw/Iron Head,44.28,0.65,All-Rounder,images/Moves/Aegislash - Shadow Claw.png,images/Moves/Aegislash - Iron Head.png
-Aegislash,images/Pokemon/Aegislash.png,Sacred Sword/Iron Head,38.19,0.2,All-Rounder,images/Moves/Aegislash - Sacred Sword.png,images/Moves/Aegislash - Iron Head.png
-Alolan Ninetales,images/Pokemon/Alolan Ninetales.png,Avalanche/Blizzard,46.78,6.65,Attacker,images/Moves/Alolan Ninetales - Avalanche.png,images/Moves/Alolan Ninetales - Blizzard.png
-Alolan Ninetales,images/Pokemon/Alolan Ninetales.png,Dazzling Gleam/Aurora Veil,50.56,1.76,Attacker,images/Moves/Alolan Ninetales - Dazzling Gleam.png,images/Moves/Alolan Ninetales - Aurora Veil.png
-Alolan Ninetales,images/Pokemon/Alolan Ninetales.png,Dazzling Gleam/Blizzard,42.22,0.32,Attacker,images/Moves/Alolan Ninetales - Dazzling Gleam.png,images/Moves/Alolan Ninetales - Blizzard.png
-Alolan Ninetales,images/Pokemon/Alolan Ninetales.png,Avalanche/Aurora Veil,47.01,0.16,Attacker,images/Moves/Alolan Ninetales - Avalanche.png,images/Moves/Alolan Ninetales - Aurora Veil.png
-Armarouge,images/Pokemon/Armarouge.png,Fire Spin/Psyshock,47.13,1.13,Attacker,images/Moves/Armarouge - Fire Spin.png,images/Moves/Armarouge - Psyshock.png
-Armarouge,images/Pokemon/Armarouge.png,Armor Cannon/Flame Charge,50.22,6.04,Attacker,images/Moves/Armarouge - Armor Cannon.png,images/Moves/Armarouge - Flame Charge.png
-Armarouge,images/Pokemon/Armarouge.png,Fire Spin/Flame Charge,51.9,14.31,Attacker,images/Moves/Armarouge - Fire Spin.png,images/Moves/Armarouge - Flame Charge.png
-Armarouge,images/Pokemon/Armarouge.png,Armor Cannon/Psyshock,53.54,16.42,Attacker,images/Moves/Armarouge - Armor Cannon.png,images/Moves/Armarouge - Psyshock.png
-Azumarill,images/Pokemon/Azumarill.png,Water Pulse/Aqua Tail,49.58,4.33,All-Rounder,images/Moves/Azumarill - Water Pulse.png,images/Moves/Azumarill - Aqua Tail.png
-Azumarill,images/Pokemon/Azumarill.png,Play Rough/Whirlpool,47.41,2.72,All-Rounder,images/Moves/Azumarill - Play Rough.png,images/Moves/Azumarill - Whirlpool.png
-Azumarill,images/Pokemon/Azumarill.png,Play Rough/Aqua Tail,39.47,0.44,All-Rounder,images/Moves/Azumarill - Play Rough.png,images/Moves/Azumarill - Aqua Tail.png
-Azumarill,images/Pokemon/Azumarill.png,Water Pulse/Whirlpool,43.38,0.27,All-Rounder,images/Moves/Azumarill - Water Pulse.png,images/Moves/Azumarill - Whirlpool.png
-Blastoise,images/Pokemon/Blastoise.png,Hydro Pump/Surf,47.61,7.6,Defender,images/Moves/Blastoise - Hydro Pump.png,images/Moves/Blastoise - Surf.png
-Blastoise,images/Pokemon/Blastoise.png,Water Spout/Rapid Spin,46.31,1.28,Defender,images/Moves/Blastoise - Water Spout.png,images/Moves/Blastoise - Rapid Spin.png
-Blastoise,images/Pokemon/Blastoise.png,Hydro Pump/Rapid Spin,46.92,0.51,Defender,images/Moves/Blastoise - Hydro Pump.png,images/Moves/Blastoise - Rapid Spin.png
-Blaziken,images/Pokemon/Blaziken.png,All,49.67,19.97,All-Rounder,images/Moves/Blaziken - Overheat.png,images/Moves/Blaziken - Blaze Kick.png
-Blissey,images/Pokemon/Blissey.png,Egg Bomb/Soft-Boiled,50.76,21.75,Supporter,images/Moves/Blissey - Egg Bomb.png,images/Moves/Blissey - Soft-Boiled.png
-Blissey,images/Pokemon/Blissey.png,Helping Hand/Safeguard,51.06,1.61,Supporter,images/Moves/Blissey - Helping Hand.png,images/Moves/Blissey - Safeguard.png
-Blissey,images/Pokemon/Blissey.png,Helping Hand/Soft-Boiled,44.88,0.42,Supporter,images/Moves/Blissey - Helping Hand.png,images/Moves/Blissey - Soft-Boiled.png
-Buzzwole,images/Pokemon/Buzzwole.png,Lunge/Superpower,49.37,0.65,All-Rounder,images/Moves/Buzzwole - Lunge.png,images/Moves/Buzzwole - Superpower.png
-Buzzwole,images/Pokemon/Buzzwole.png,Lunge/Leech Life,47.47,3.24,All-Rounder,images/Moves/Buzzwole - Lunge.png,images/Moves/Buzzwole - Leech Life.png
-Buzzwole,images/Pokemon/Buzzwole.png,Smack Down/Superpower,45.19,5.12,All-Rounder,images/Moves/Buzzwole - Smack Down.png,images/Moves/Buzzwole - Superpower.png
-Buzzwole,images/Pokemon/Buzzwole.png,Smack Down/Leech Life,45.48,4.88,All-Rounder,images/Moves/Buzzwole - Smack Down.png,images/Moves/Buzzwole - Leech Life.png
-Ceruledge,images/Pokemon/Ceruledge.png,Bitter Blade/Phantom Force,52.17,18.67,All-Rounder,images/Moves/Ceruledge - Bitter Blade.png,images/Moves/Ceruledge - Phantom Force.png
-Ceruledge,images/Pokemon/Ceruledge.png,Psycho Cut/Phantom Force,50.99,8.19,All-Rounder,images/Moves/Ceruledge - Psycho Cut.png,images/Moves/Ceruledge - Phantom Force.png
-Ceruledge,images/Pokemon/Ceruledge.png,Psycho Cut/Flame Charge,49.5,4.02,All-Rounder,images/Moves/Ceruledge - Psycho Cut.png,images/Moves/Ceruledge - Flame Charge.png
-Ceruledge,images/Pokemon/Ceruledge.png,Bitter Blade/Flame Charge,50.25,0.46,All-Rounder,images/Moves/Ceruledge - Bitter Blade.png,images/Moves/Ceruledge - Flame Charge.png
-Chandelure,images/Pokemon/Chandelure.png,Overheat/Imprison,47.8,2.23,Attacker,images/Moves/Chandelure - Overheat.png,images/Moves/Chandelure - Imprison.png
-Chandelure,images/Pokemon/Chandelure.png,Flamethrower/Imprison,47.86,1.71,Attacker,images/Moves/Chandelure - Flamethrower.png,images/Moves/Chandelure - Imprison.png
-Chandelure,images/Pokemon/Chandelure.png,Flamethrower/Poltergeist,48.41,1.22,Attacker,images/Moves/Chandelure - Flamethrower.png,images/Moves/Chandelure - Poltergeist.png
-Chandelure,images/Pokemon/Chandelure.png,Overheat/Poltergeist,47.59,0.93,Attacker,images/Moves/Chandelure - Overheat.png,images/Moves/Chandelure - Poltergeist.png
-Charizard,images/Pokemon/Charizard.png,Fire Punch/Fire Blast,49.04,2.38,All-Rounder,images/Moves/Charizard - Fire Punch.png,images/Moves/Charizard - Fire Blast.png
-Charizard,images/Pokemon/Charizard.png,Flamethrower/Fire Blast,53.99,13.53,All-Rounder,images/Moves/Charizard - Flamethrower.png,images/Moves/Charizard - Fire Blast.png
-Charizard,images/Pokemon/Charizard.png,Fire Punch/Flare Blitz,51.0,7.68,All-Rounder,images/Moves/Charizard - Fire Punch.png,images/Moves/Charizard - Flare Blitz.png
-Charizard,images/Pokemon/Charizard.png,Flamethrower/Flare Blitz,52.29,4.3,All-Rounder,images/Moves/Charizard - Flamethrower.png,images/Moves/Charizard - Flare Blitz.png
-Cinderace,images/Pokemon/Cinderace.png,Pyro Ball/Feint,46.81,3.18,Attacker,images/Moves/Cinderace - Pyro Ball.png,images/Moves/Cinderace - Feint.png
-Cinderace,images/Pokemon/Cinderace.png,Pyro Ball/Flame Charge,46.72,3.39,Attacker,images/Moves/Cinderace - Pyro Ball.png,images/Moves/Cinderace - Flame Charge.png
-Cinderace,images/Pokemon/Cinderace.png,Blaze Kick/Flame Charge,50.85,3.83,Attacker,images/Moves/Cinderace - Blaze Kick.png,images/Moves/Cinderace - Flame Charge.png
-Cinderace,images/Pokemon/Cinderace.png,Blaze Kick/Feint,48.05,4.91,Attacker,images/Moves/Cinderace - Blaze Kick.png,images/Moves/Cinderace - Feint.png
-Clefable,images/Pokemon/Clefable.png,Moonlight/Gravity,47.66,11.21,Supporter,images/Moves/Clefable - Moonlight.png,images/Moves/Clefable - Gravity.png
-Clefable,images/Pokemon/Clefable.png,Moonlight/Follow Me,50.11,2.16,Supporter,images/Moves/Clefable - Moonlight.png,images/Moves/Clefable - Follow Me.png
-Clefable,images/Pokemon/Clefable.png,Draining Kiss/Follow Me,44.27,0.53,Supporter,images/Moves/Clefable - Draining Kiss.png,images/Moves/Clefable - Follow Me.png
-Clefable,images/Pokemon/Clefable.png,Draining Kiss/Gravity,37.22,0.18,Supporter,images/Moves/Clefable - Draining Kiss.png,images/Moves/Clefable - Gravity.png
-Comfey,images/Pokemon/Comfey.png,Floral Healing/Magical Leaf,45.97,7.07,Supporter,images/Moves/Comfey - Floral Healing.png,images/Moves/Comfey - Magical Leaf.png
-Comfey,images/Pokemon/Comfey.png,Floral Healing/Grass Knot,48.2,5.58,Supporter,images/Moves/Comfey - Floral Healing.png,images/Moves/Comfey - Grass Knot.png
-Comfey,images/Pokemon/Comfey.png,Sweet Kiss/Grass Knot,46.28,0.42,Supporter,images/Moves/Comfey - Sweet Kiss.png,images/Moves/Comfey - Grass Knot.png
-Decidueye,images/Pokemon/Decidueye.png,Razor Leaf/Shadow Sneak,49.22,2.23,Attacker,images/Moves/Decidueye - Razor Leaf.png,images/Moves/Decidueye - Shadow Sneak.png
-Decidueye,images/Pokemon/Decidueye.png,Spirit Shackle/Leaf Storm,46.43,1.78,Attacker,images/Moves/Decidueye - Spirit Shackle.png,images/Moves/Decidueye - Leaf Storm.png
-Decidueye,images/Pokemon/Decidueye.png,Spirit Shackle/Shadow Sneak,49.09,11.89,Attacker,images/Moves/Decidueye - Spirit Shackle.png,images/Moves/Decidueye - Shadow Sneak.png
-Decidueye,images/Pokemon/Decidueye.png,Razor Leaf/Leaf Storm,48.11,4.02,Attacker,images/Moves/Decidueye - Razor Leaf.png,images/Moves/Decidueye - Leaf Storm.png
-Delphox,images/Pokemon/Delphox.png,Mystical Fire/Flame Charge,50.16,1.49,Attacker,images/Moves/Delphox - Mystical Fire.png,images/Moves/Delphox - Flame Charge.png
-Delphox,images/Pokemon/Delphox.png,Fire Blast/Fire Spin,50.97,11.65,Attacker,images/Moves/Delphox - Fire Blast.png,images/Moves/Delphox - Fire Spin.png
-Delphox,images/Pokemon/Delphox.png,Mystical Fire/Fire Spin,51.12,5.08,Attacker,images/Moves/Delphox - Mystical Fire.png,images/Moves/Delphox - Fire Spin.png
-Dodrio,images/Pokemon/Dodrio.png,Tri Attack/Jump Kick,52.46,4.07,Speedster,images/Moves/Dodrio - Tri Attack.png,images/Moves/Dodrio - Jump Kick.png
-Dodrio,images/Pokemon/Dodrio.png,Drill Peck/Jump Kick,47.83,1.93,Speedster,images/Moves/Dodrio - Drill Peck.png,images/Moves/Dodrio - Jump Kick.png
-Dodrio,images/Pokemon/Dodrio.png,Tri Attack/Agility,46.64,0.35,Speedster,images/Moves/Dodrio - Tri Attack.png,images/Moves/Dodrio - Agility.png
-Dodrio,images/Pokemon/Dodrio.png,Drill Peck/Agility,38.54,0.12,Speedster,images/Moves/Dodrio - Drill Peck.png,images/Moves/Dodrio - Agility.png
-Dragapult,images/Pokemon/Dragapult.png,Shadow Ball/Phantom Force,50.58,5.22,Attacker,images/Moves/Dragapult - Shadow Ball.png,images/Moves/Dragapult - Phantom Force.png
-Dragapult,images/Pokemon/Dragapult.png,Dragon Breath/Dragon Dance,49.3,1.69,Attacker,images/Moves/Dragapult - Dragon Breath.png,images/Moves/Dragapult - Dragon Dance.png
-Dragapult,images/Pokemon/Dragapult.png,Dragon Breath/Phantom Force,48.61,0.63,Attacker,images/Moves/Dragapult - Dragon Breath.png,images/Moves/Dragapult - Phantom Force.png
-Dragapult,images/Pokemon/Dragapult.png,Shadow Ball/Dragon Dance,47.22,0.45,Attacker,images/Moves/Dragapult - Shadow Ball.png,images/Moves/Dragapult - Dragon Dance.png
-Dragonite,images/Pokemon/Dragonite.png,Dragon Dance/Outrage,51.93,3.76,All-Rounder,images/Moves/Dragonite - Dragon Dance.png,images/Moves/Dragonite - Outrage.png
-Dragonite,images/Pokemon/Dragonite.png,Dragon Dance/Hyper Beam,51.9,3.61,All-Rounder,images/Moves/Dragonite - Dragon Dance.png,images/Moves/Dragonite - Hyper Beam.png
-Dragonite,images/Pokemon/Dragonite.png,Extreme Speed/Outrage,48.47,3.33,All-Rounder,images/Moves/Dragonite - Extreme Speed.png,images/Moves/Dragonite - Outrage.png
-Duraludon,images/Pokemon/Duraludon.png,Dragon Pulse/Stealth Rock,52.65,0.59,Attacker,images/Moves/Duraludon - Dragon Pulse.png,images/Moves/Duraludon - Stealth Rock.png
-Duraludon,images/Pokemon/Duraludon.png,Dragon Pulse/Dragon Tail,49.88,0.24,Attacker,images/Moves/Duraludon - Dragon Pulse.png,images/Moves/Duraludon - Dragon Tail.png
-Duraludon,images/Pokemon/Duraludon.png,Flash Cannon/Dragon Tail,52.85,1.1,Attacker,images/Moves/Duraludon - Flash Cannon.png,images/Moves/Duraludon - Dragon Tail.png
-Duraludon,images/Pokemon/Duraludon.png,Flash Cannon/Stealth Rock,51.38,0.81,Attacker,images/Moves/Duraludon - Flash Cannon.png,images/Moves/Duraludon - Stealth Rock.png
-Eldegoss,images/Pokemon/Eldegoss.png,Pollen Puff/Cotton Guard,52.08,15.61,Supporter,images/Moves/Eldegoss - Pollen Puff.png,images/Moves/Eldegoss - Cotton Guard.png
-Eldegoss,images/Pokemon/Eldegoss.png,Pollen Puff/Cotton Spore,50.6,8.97,Supporter,images/Moves/Eldegoss - Pollen Puff.png,images/Moves/Eldegoss - Cotton Spore.png
-Eldegoss,images/Pokemon/Eldegoss.png,Leaf Tornado/Cotton Guard,49.3,0.58,Supporter,images/Moves/Eldegoss - Leaf Tornado.png,images/Moves/Eldegoss - Cotton Guard.png
-Eldegoss,images/Pokemon/Eldegoss.png,Leaf Tornado/Cotton Spore,48.17,0.57,Supporter,images/Moves/Eldegoss - Leaf Tornado.png,images/Moves/Eldegoss - Cotton Spore.png
-Espeon,images/Pokemon/Espeon.png,Psyshock/Future Sight,44.13,0.79,Attacker,images/Moves/Espeon - Psyshock.png,images/Moves/Espeon - Future Sight.png
-Espeon,images/Pokemon/Espeon.png,Stored Power/Psybeam,48.59,7.63,Attacker,images/Moves/Espeon - Stored Power.png,images/Moves/Espeon - Psybeam.png
-Espeon,images/Pokemon/Espeon.png,Psyshock/Psybeam,46.06,2.98,Attacker,images/Moves/Espeon - Psyshock.png,images/Moves/Espeon - Psybeam.png
-Espeon,images/Pokemon/Espeon.png,Stored Power/Future Sight,46.24,1.98,Attacker,images/Moves/Espeon - Stored Power.png,images/Moves/Espeon - Future Sight.png
-Falinks,images/Pokemon/Falinks.png,Iron Head/No Retreat,40.13,0.27,All-Rounder,images/Moves/Falinks - Iron Head.png,images/Moves/Falinks - No Retreat.png
-Falinks,images/Pokemon/Falinks.png,Megahorn/Beat Up,47.98,0.13,All-Rounder,images/Moves/Falinks - Megahorn.png,images/Moves/Falinks - Beat Up.png
-Falinks,images/Pokemon/Falinks.png,Iron Head/Beat Up,49.94,0.95,All-Rounder,images/Moves/Falinks - Iron Head.png,images/Moves/Falinks - Beat Up.png
-Falinks,images/Pokemon/Falinks.png,Megahorn/No Retreat,48.16,0.46,All-Rounder,images/Moves/Falinks - Megahorn.png,images/Moves/Falinks - No Retreat.png
-Garchomp,images/Pokemon/Garchomp.png,Dig/Dragon Claw,42.86,0.14,All-Rounder,images/Moves/Garchomp - Dig.png,images/Moves/Garchomp - Dragon Claw.png
-Garchomp,images/Pokemon/Garchomp.png,Dragon Rush/Earthquake,46.11,0.19,All-Rounder,images/Moves/Garchomp - Dragon Rush.png,images/Moves/Garchomp - Earthquake.png
-Garchomp,images/Pokemon/Garchomp.png,Dragon Rush/Dragon Claw,52.51,6.26,All-Rounder,images/Moves/Garchomp - Dragon Rush.png,images/Moves/Garchomp - Dragon Claw.png
-Garchomp,images/Pokemon/Garchomp.png,Dig/Earthquake,50.14,1.28,All-Rounder,images/Moves/Garchomp - Dig.png,images/Moves/Garchomp - Earthquake.png
-Gardevoir,images/Pokemon/Gardevoir.png,Psychic/Psyshock,48.83,4.36,Attacker,images/Moves/Gardevoir - Psychic.png,images/Moves/Gardevoir - Psyshock.png
-Gardevoir,images/Pokemon/Gardevoir.png,Moonblast/Psyshock,50.33,4.19,Attacker,images/Moves/Gardevoir - Moonblast.png,images/Moves/Gardevoir - Psyshock.png
-Gardevoir,images/Pokemon/Gardevoir.png,Moonblast/Future Sight,49.96,2.98,Attacker,images/Moves/Gardevoir - Moonblast.png,images/Moves/Gardevoir - Future Sight.png
-Gardevoir,images/Pokemon/Gardevoir.png,Psychic/Future Sight,47.52,1.61,Attacker,images/Moves/Gardevoir - Psychic.png,images/Moves/Gardevoir - Future Sight.png
-Gengar,images/Pokemon/Gengar.png,Shadow Ball/Dream Eater,49.4,7.26,Speedster,images/Moves/Gengar - Shadow Ball.png,images/Moves/Gengar - Dream Eater.png
-Gengar,images/Pokemon/Gengar.png,Sludge Bomb/Hex,51.13,6.36,Speedster,images/Moves/Gengar - Sludge Bomb.png,images/Moves/Gengar - Hex.png
-Gengar,images/Pokemon/Gengar.png,Shadow Ball/Hex,38.81,0.15,Speedster,images/Moves/Gengar - Shadow Ball.png,images/Moves/Gengar - Hex.png
-Glaceon,images/Pokemon/Glaceon.png,Icicle Spear/Freeze-Dry,34.44,0.09,Attacker,images/Moves/Glaceon - Icicle Spear.png,images/Moves/Glaceon - Freeze-Dry.png
-Glaceon,images/Pokemon/Glaceon.png,Icy Wind/Ice Shard,40.2,0.12,Attacker,images/Moves/Glaceon - Icy Wind.png,images/Moves/Glaceon - Ice Shard.png
-Glaceon,images/Pokemon/Glaceon.png,Icicle Spear/Ice Shard,46.05,6.95,Attacker,images/Moves/Glaceon - Icicle Spear.png,images/Moves/Glaceon - Ice Shard.png
-Glaceon,images/Pokemon/Glaceon.png,Icy Wind/Freeze-Dry,49.46,0.71,Attacker,images/Moves/Glaceon - Icy Wind.png,images/Moves/Glaceon - Freeze-Dry.png
-Goodra,images/Pokemon/Goodra.png,Dragon Pulse/Power Whip,46.6,3.16,Defender,images/Moves/Goodra - Dragon Pulse.png,images/Moves/Goodra - Power Whip.png
-Goodra,images/Pokemon/Goodra.png,Dragon Pulse/Acid Spray,46.74,1.84,Defender,images/Moves/Goodra - Dragon Pulse.png,images/Moves/Goodra - Acid Spray.png
-Goodra,images/Pokemon/Goodra.png,Muddy Water/Acid Spray,48.56,1.01,Defender,images/Moves/Goodra - Muddy Water.png,images/Moves/Goodra - Acid Spray.png
-Goodra,images/Pokemon/Goodra.png,Muddy Water/Power Whip,49.32,0.98,Defender,images/Moves/Goodra - Muddy Water.png,images/Moves/Goodra - Power Whip.png
-Greedent,images/Pokemon/Greedent.png,Bullet Seed/Covet,51.55,0.06,Defender,images/Moves/Greedent - Bullet Seed.png,images/Moves/Greedent - Covet.png
-Greedent,images/Pokemon/Greedent.png,Bullet Seed/Stuff Cheeks,48.64,1.29,Defender,images/Moves/Greedent - Bullet Seed.png,images/Moves/Greedent - Stuff Cheeks.png
-Greedent,images/Pokemon/Greedent.png,Belch/Covet,49.08,0.83,Defender,images/Moves/Greedent - Belch.png,images/Moves/Greedent - Covet.png
-Greedent,images/Pokemon/Greedent.png,Belch/Stuff Cheeks,40.0,0.07,Defender,images/Moves/Greedent - Belch.png,images/Moves/Greedent - Stuff Cheeks.png
-Greninja,images/Pokemon/Greninja.png,Surf/Smokescreen,50.62,8.62,Attacker,images/Moves/Greninja - Surf.png,images/Moves/Greninja - Smokescreen.png
-Greninja,images/Pokemon/Greninja.png,Surf/Double Team,50.96,4.92,Attacker,images/Moves/Greninja - Surf.png,images/Moves/Greninja - Double Team.png
-Greninja,images/Pokemon/Greninja.png,Water Shuriken/Double Team,50.72,17.54,Attacker,images/Moves/Greninja - Water Shuriken.png,images/Moves/Greninja - Double Team.png
-Greninja,images/Pokemon/Greninja.png,Water Shuriken/Smokescreen,47.81,0.85,Attacker,images/Moves/Greninja - Water Shuriken.png,images/Moves/Greninja - Smokescreen.png
-Gyarados,images/Pokemon/Gyarados.png,Dragon Breath/Waterfall,49.1,2.68,All-Rounder,images/Moves/Gyarados - Dragon Breath.png,images/Moves/Gyarados - Waterfall.png
-Gyarados,images/Pokemon/Gyarados.png,Dragon Breath/Bounce,53.66,14.41,All-Rounder,images/Moves/Gyarados - Dragon Breath.png,images/Moves/Gyarados - Bounce.png
-Ho-Oh,images/Pokemon/Ho-Oh.png,Fly/Flamethrower,48.52,1.99,Defender,images/Moves/Ho-Oh - Fly.png,images/Moves/Ho-Oh - Flamethrower.png
-Ho-Oh,images/Pokemon/Ho-Oh.png,Fly/Sky Attack,48.0,0.46,Defender,images/Moves/Ho-Oh - Fly.png,images/Moves/Ho-Oh - Sky Attack.png
-Ho-Oh,images/Pokemon/Ho-Oh.png,Fire Spin/Sky Attack,51.87,12.85,Defender,images/Moves/Ho-Oh - Fire Spin.png,images/Moves/Ho-Oh - Sky Attack.png
-Ho-Oh,images/Pokemon/Ho-Oh.png,Fire Spin/Flamethrower,50.71,3.83,Defender,images/Moves/Ho-Oh - Fire Spin.png,images/Moves/Ho-Oh - Flamethrower.png
-Hoopa,images/Pokemon/Hoopa.png,Shadow Ball/Trick,51.83,1.35,Supporter,images/Moves/Hoopa - Shadow Ball.png,images/Moves/Hoopa - Trick.png
-Hoopa,images/Pokemon/Hoopa.png,Phantom Force/Hyperspace Hole,50.93,9.01,Supporter,images/Moves/Hoopa - Phantom Force.png,images/Moves/Hoopa - Hyperspace Hole.png
-Hoopa,images/Pokemon/Hoopa.png,Shadow Ball/Hyperspace Hole,45.91,0.36,Supporter,images/Moves/Hoopa - Shadow Ball.png,images/Moves/Hoopa - Hyperspace Hole.png
-Hoopa,images/Pokemon/Hoopa.png,Phantom Force/Trick,52.04,0.72,Supporter,images/Moves/Hoopa - Phantom Force.png,images/Moves/Hoopa - Trick.png
-Inteleon,images/Pokemon/Inteleon.png,Acrobatics/Snipe Shot,48.86,0.2,Attacker,images/Moves/Inteleon - Acrobatics.png,images/Moves/Inteleon - Snipe Shot.png
-Inteleon,images/Pokemon/Inteleon.png,Fell Stinger/Snipe Shot,48.64,6.3,Attacker,images/Moves/Inteleon - Fell Stinger.png,images/Moves/Inteleon - Snipe Shot.png
-Inteleon,images/Pokemon/Inteleon.png,Fell Stinger/Liquidation,43.97,0.84,Attacker,images/Moves/Inteleon - Fell Stinger.png,images/Moves/Inteleon - Liquidation.png
-Inteleon,images/Pokemon/Inteleon.png,Acrobatics/Liquidation,48.94,3.24,Attacker,images/Moves/Inteleon - Acrobatics.png,images/Moves/Inteleon - Liquidation.png
-Lapras,images/Pokemon/Lapras.png,Perish Song/Ice Beam,42.73,0.79,Defender,images/Moves/Lapras - Perish Song.png,images/Moves/Lapras - Ice Beam.png
-Lapras,images/Pokemon/Lapras.png,Water Pulse/Bubble Beam,45.58,0.83,Defender,images/Moves/Lapras - Water Pulse.png,images/Moves/Lapras - Bubble Beam.png
-Lapras,images/Pokemon/Lapras.png,Water Pulse/Ice Beam,50.72,1.35,Defender,images/Moves/Lapras - Water Pulse.png,images/Moves/Lapras - Ice Beam.png
-Lapras,images/Pokemon/Lapras.png,Perish Song/Bubble Beam,45.76,0.5,Defender,images/Moves/Lapras - Perish Song.png,images/Moves/Lapras - Bubble Beam.png
-Leafeon,images/Pokemon/Leafeon.png,Razor Leaf/Aerial Ace,49.8,13.27,Speedster,images/Moves/Leafeon - Razor Leaf.png,images/Moves/Leafeon - Aerial Ace.png
-Leafeon,images/Pokemon/Leafeon.png,Razor Leaf/Leaf Blade,46.45,1.21,Speedster,images/Moves/Leafeon - Razor Leaf.png,images/Moves/Leafeon - Leaf Blade.png
-Leafeon,images/Pokemon/Leafeon.png,Solar Blade/Leaf Blade,41.96,1.21,Speedster,images/Moves/Leafeon - Solar Blade.png,images/Moves/Leafeon - Leaf Blade.png
-Leafeon,images/Pokemon/Leafeon.png,Solar Blade/Aerial Ace,47.02,0.8,Speedster,images/Moves/Leafeon - Solar Blade.png,images/Moves/Leafeon - Aerial Ace.png
-Lucario,images/Pokemon/Lucario.png,Extreme Speed/Bone Rush,48.65,3.7,All-Rounder,images/Moves/Lucario - Extreme Speed.png,images/Moves/Lucario - Bone Rush.png
-Lucario,images/Pokemon/Lucario.png,Extreme Speed/Close Combat,44.65,0.38,All-Rounder,images/Moves/Lucario - Extreme Speed.png,images/Moves/Lucario - Close Combat.png
-Lucario,images/Pokemon/Lucario.png,Power-Up Punch/Bone Rush,44.15,0.22,All-Rounder,images/Moves/Lucario - Power-Up Punch.png,images/Moves/Lucario - Bone Rush.png
-Lucario,images/Pokemon/Lucario.png,Power-Up Punch/Close Combat,49.69,4.83,All-Rounder,images/Moves/Lucario - Power-Up Punch.png,images/Moves/Lucario - Close Combat.png
-Machamp,images/Pokemon/Machamp.png,Close Combat/Submission,45.53,0.54,All-Rounder,images/Moves/Machamp - Close Combat.png,images/Moves/Machamp - Submission.png
-Machamp,images/Pokemon/Machamp.png,Close Combat/Dynamic Punch,48.96,1.21,All-Rounder,images/Moves/Machamp - Close Combat.png,images/Moves/Machamp - Dynamic Punch.png
-Machamp,images/Pokemon/Machamp.png,Cross Chop/Dynamic Punch,49.98,1.26,All-Rounder,images/Moves/Machamp - Cross Chop.png,images/Moves/Machamp - Dynamic Punch.png
-Machamp,images/Pokemon/Machamp.png,Cross Chop/Submission,51.27,3.72,All-Rounder,images/Moves/Machamp - Cross Chop.png,images/Moves/Machamp - Submission.png
-Mamoswine,images/Pokemon/Mamoswine.png,Ice Fang/High Horsepower,46.84,4.08,Defender,images/Moves/Mamoswine - Ice Fang.png,images/Moves/Mamoswine - High Horsepower.png
-Mamoswine,images/Pokemon/Mamoswine.png,Icicle Crash/Earthquake,53.84,1.76,Defender,images/Moves/Mamoswine - Icicle Crash.png,images/Moves/Mamoswine - Earthquake.png
-Mamoswine,images/Pokemon/Mamoswine.png,Ice Fang/Earthquake,50.65,20.7,Defender,images/Moves/Mamoswine - Ice Fang.png,images/Moves/Mamoswine - Earthquake.png
-Mamoswine,images/Pokemon/Mamoswine.png,Icicle Crash/High Horsepower,48.31,3.11,Defender,images/Moves/Mamoswine - Icicle Crash.png,images/Moves/Mamoswine - High Horsepower.png
-Meowscarada,images/Pokemon/Meowscarada.png,Night Slash/Trailblaze,49.75,5.86,Speedster,images/Moves/Meowscarada - Night Slash.png,images/Moves/Meowscarada - Trailblaze.png
-Meowscarada,images/Pokemon/Meowscarada.png,Flower Trick/Double Team,51.8,2.31,Speedster,images/Moves/Meowscarada - Flower Trick.png,images/Moves/Meowscarada - Double Team.png
-Meowscarada,images/Pokemon/Meowscarada.png,Flower Trick/Trailblaze,46.79,0.28,Speedster,images/Moves/Meowscarada - Flower Trick.png,images/Moves/Meowscarada - Trailblaze.png
-Meowscarada,images/Pokemon/Meowscarada.png,Night Slash/Double Team,40.47,0.25,Speedster,images/Moves/Meowscarada - Night Slash.png,images/Moves/Meowscarada - Double Team.png
-Metagross,images/Pokemon/Metagross.png,Meteor Mash/Magnet Rise,43.9,0.7,All-Rounder,images/Moves/Metagross - Meteor Mash.png,images/Moves/Metagross - Magnet Rise.png
-Metagross,images/Pokemon/Metagross.png,Gyro Ball/Zen Headbutt,49.22,0.94,All-Rounder,images/Moves/Metagross - Gyro Ball.png,images/Moves/Metagross - Zen Headbutt.png
-Metagross,images/Pokemon/Metagross.png,Gyro Ball/Magnet Rise,48.04,3.83,All-Rounder,images/Moves/Metagross - Gyro Ball.png,images/Moves/Metagross - Magnet Rise.png
-Metagross,images/Pokemon/Metagross.png,Meteor Mash/Zen Headbutt,49.67,1.05,All-Rounder,images/Moves/Metagross - Meteor Mash.png,images/Moves/Metagross - Zen Headbutt.png
-Mew,images/Pokemon/Mew.png,All,48.24,7.18,Attacker,images/Moves/Mew - Solar Beam.png,images/Moves/Mew - Light Screen.png
-MewtwoX,images/Pokemon/MewtwoX.png,Psystrike/Recover,53.01,3.21,All-Rounder,images/Moves/MewtwoX - Psystrike.png,images/Moves/MewtwoX - Recover.png
-MewtwoX,images/Pokemon/MewtwoX.png,Future Sight/Recover,48.02,1.32,All-Rounder,images/Moves/MewtwoX - Future Sight.png,images/Moves/MewtwoX - Recover.png
-MewtwoX,images/Pokemon/MewtwoX.png,Psystrike/Teleport,46.09,0.49,All-Rounder,images/Moves/MewtwoX - Psystrike.png,images/Moves/MewtwoX - Teleport.png
-MewtwoX,images/Pokemon/MewtwoX.png,Future Sight/Teleport,47.89,0.32,All-Rounder,images/Moves/MewtwoX - Future Sight.png,images/Moves/MewtwoX - Teleport.png
-MewtwoY,images/Pokemon/MewtwoY.png,Future Sight/Teleport,45.92,0.72,Attacker,images/Moves/MewtwoY - Future Sight.png,images/Moves/MewtwoY - Teleport.png
-MewtwoY,images/Pokemon/MewtwoY.png,Psystrike/Recover,47.58,0.38,Attacker,images/Moves/MewtwoY - Psystrike.png,images/Moves/MewtwoY - Recover.png
-MewtwoY,images/Pokemon/MewtwoY.png,Future Sight/Recover,43.7,0.22,Attacker,images/Moves/MewtwoY - Future Sight.png,images/Moves/MewtwoY - Recover.png
-MewtwoY,images/Pokemon/MewtwoY.png,Psystrike/Teleport,48.3,2.28,Attacker,images/Moves/MewtwoY - Psystrike.png,images/Moves/MewtwoY - Teleport.png
-Mimikyu,images/Pokemon/Mimikyu.png,Play Rough/Shadow Sneak,49.82,11.73,All-Rounder,images/Moves/Mimikyu - Play Rough.png,images/Moves/Mimikyu - Shadow Sneak.png
-Mimikyu,images/Pokemon/Mimikyu.png,Shadow Claw/Shadow Sneak,49.06,7.83,All-Rounder,images/Moves/Mimikyu - Shadow Claw.png,images/Moves/Mimikyu - Shadow Sneak.png
-Mimikyu,images/Pokemon/Mimikyu.png,Shadow Claw/Trick Room,47.59,1.28,All-Rounder,images/Moves/Mimikyu - Shadow Claw.png,images/Moves/Mimikyu - Trick Room.png
-Miraidon,images/Pokemon/Miraidon.png,Charge Beam/Parabolic Charge,53.18,0.48,Attacker,images/Moves/Miraidon - Charge Beam.png,images/Moves/Miraidon - Parabolic Charge.png
-Miraidon,images/Pokemon/Miraidon.png,Charge Beam/Thunder,50.35,5.01,Attacker,images/Moves/Miraidon - Charge Beam.png,images/Moves/Miraidon - Thunder.png
-Miraidon,images/Pokemon/Miraidon.png,Electro Drift/Parabolic Charge,51.3,5.13,Attacker,images/Moves/Miraidon - Electro Drift.png,images/Moves/Miraidon - Parabolic Charge.png
-Miraidon,images/Pokemon/Miraidon.png,Electro Drift/Thunder,39.3,0.13,Attacker,images/Moves/Miraidon - Electro Drift.png,images/Moves/Miraidon - Thunder.png
-Mr. Mime,images/Pokemon/Mr. Mime.png,Psychic/Power Swap,51.3,2.54,Supporter,images/Moves/Mr. Mime - Psychic.png,images/Moves/Mr. Mime - Power Swap.png
-Mr. Mime,images/Pokemon/Mr. Mime.png,Confusion/Power Swap,48.99,0.9,Supporter,images/Moves/Mr. Mime - Confusion.png,images/Moves/Mr. Mime - Power Swap.png
-Mr. Mime,images/Pokemon/Mr. Mime.png,Psychic/Barrier,46.2,0.1,Supporter,images/Moves/Mr. Mime - Psychic.png,images/Moves/Mr. Mime - Barrier.png
-Mr. Mime,images/Pokemon/Mr. Mime.png,Confusion/Barrier,50.71,5.23,Supporter,images/Moves/Mr. Mime - Confusion.png,images/Moves/Mr. Mime - Barrier.png
-Pikachu,images/Pokemon/Pikachu.png,Electro Ball/Volt Tackle,51.0,30.26,Attacker,images/Moves/Pikachu - Electro Ball.png,images/Moves/Pikachu - Volt Tackle.png
-Pikachu,images/Pokemon/Pikachu.png,Thunder/Thunderbolt,51.21,11.48,Attacker,images/Moves/Pikachu - Thunder.png,images/Moves/Pikachu - Thunderbolt.png
-Pikachu,images/Pokemon/Pikachu.png,Thunder/Volt Tackle,50.71,5.99,Attacker,images/Moves/Pikachu - Thunder.png,images/Moves/Pikachu - Volt Tackle.png
-Pikachu,images/Pokemon/Pikachu.png,Electro Ball/Thunderbolt,47.88,1.01,Attacker,images/Moves/Pikachu - Electro Ball.png,images/Moves/Pikachu - Thunderbolt.png
-Sableye,images/Pokemon/Sableye.png,Shadow Sneak/Feint Attack,44.71,0.34,Supporter,images/Moves/Sableye - Shadow Sneak.png,images/Moves/Sableye - Feint Attack.png
-Sableye,images/Pokemon/Sableye.png,Shadow Sneak/Confuse Ray,46.66,1.02,Supporter,images/Moves/Sableye - Shadow Sneak.png,images/Moves/Sableye - Confuse Ray.png
-Sableye,images/Pokemon/Sableye.png,Knock Off/Confuse Ray,49.55,5.16,Supporter,images/Moves/Sableye - Knock Off.png,images/Moves/Sableye - Confuse Ray.png
-Sableye,images/Pokemon/Sableye.png,Knock Off/Feint Attack,46.53,1.74,Supporter,images/Moves/Sableye - Knock Off.png,images/Moves/Sableye - Feint Attack.png
-Scizor,images/Pokemon/Scizor.png,Bullet Punch/Double Hit,45.1,2.27,All-Rounder,images/Moves/Scizor - Bullet Punch.png,images/Moves/Scizor - Double Hit.png
-Scizor,images/Pokemon/Scizor.png,Bullet Punch/Swords Dance,46.82,4.19,All-Rounder,images/Moves/Scizor - Bullet Punch.png,images/Moves/Scizor - Swords Dance.png
-Scyther,images/Pokemon/Scyther.png,Dual Wingbeat/Double Hit,46.91,3.0,Speedster,images/Moves/Scyther - Dual Wingbeat.png,images/Moves/Scyther - Double Hit.png
-Scyther,images/Pokemon/Scyther.png,Dual Wingbeat/Swords Dance,51.61,1.98,Speedster,images/Moves/Scyther - Dual Wingbeat.png,images/Moves/Scyther - Swords Dance.png
-Slowbro,images/Pokemon/Slowbro.png,Scald/Telekinesis,47.43,5.37,Defender,images/Moves/Slowbro - Scald.png,images/Moves/Slowbro - Telekinesis.png
-Slowbro,images/Pokemon/Slowbro.png,Surf/Telekinesis,49.16,10.88,Defender,images/Moves/Slowbro - Surf.png,images/Moves/Slowbro - Telekinesis.png
-Slowbro,images/Pokemon/Slowbro.png,Surf/Amnesia,50.38,5.98,Defender,images/Moves/Slowbro - Surf.png,images/Moves/Slowbro - Amnesia.png
-Slowbro,images/Pokemon/Slowbro.png,Scald/Amnesia,49.62,7.69,Defender,images/Moves/Slowbro - Scald.png,images/Moves/Slowbro - Amnesia.png
-Snorlax,images/Pokemon/Snorlax.png,Heavy Slam/Yawn,52.17,4.17,Defender,images/Moves/Snorlax - Heavy Slam.png,images/Moves/Snorlax - Yawn.png
-Snorlax,images/Pokemon/Snorlax.png,Heavy Slam/Block,46.71,3.67,Defender,images/Moves/Snorlax - Heavy Slam.png,images/Moves/Snorlax - Block.png
-Snorlax,images/Pokemon/Snorlax.png,Flail/Block,44.93,1.18,Defender,images/Moves/Snorlax - Flail.png,images/Moves/Snorlax - Block.png
-Snorlax,images/Pokemon/Snorlax.png,Flail/Yawn,49.29,1.19,Defender,images/Moves/Snorlax - Flail.png,images/Moves/Snorlax - Yawn.png
-Sylveon,images/Pokemon/Sylveon.png,Mystical Fire/Draining Kiss,49.3,8.72,Attacker,images/Moves/Sylveon - Mystical Fire.png,images/Moves/Sylveon - Draining Kiss.png
-Sylveon,images/Pokemon/Sylveon.png,Hyper Voice/Calm Mind,49.78,3.83,Attacker,images/Moves/Sylveon - Hyper Voice.png,images/Moves/Sylveon - Calm Mind.png
-Sylveon,images/Pokemon/Sylveon.png,Hyper Voice/Draining Kiss,46.86,2.0,Attacker,images/Moves/Sylveon - Hyper Voice.png,images/Moves/Sylveon - Draining Kiss.png
-Sylveon,images/Pokemon/Sylveon.png,Mystical Fire/Calm Mind,44.55,0.18,Attacker,images/Moves/Sylveon - Mystical Fire.png,images/Moves/Sylveon - Calm Mind.png
-Talonflame,images/Pokemon/Talonflame.png,Flame Charge/Brave Bird,40.62,0.43,Speedster,images/Moves/Talonflame - Flame Charge.png,images/Moves/Talonflame - Brave Bird.png
-Talonflame,images/Pokemon/Talonflame.png,Aerial Ace/Fly,47.75,2.39,Speedster,images/Moves/Talonflame - Aerial Ace.png,images/Moves/Talonflame - Fly.png
-Talonflame,images/Pokemon/Talonflame.png,Aerial Ace/Brave Bird,47.63,4.39,Speedster,images/Moves/Talonflame - Aerial Ace.png,images/Moves/Talonflame - Brave Bird.png
-Talonflame,images/Pokemon/Talonflame.png,Flame Charge/Fly,49.7,8.12,Speedster,images/Moves/Talonflame - Flame Charge.png,images/Moves/Talonflame - Fly.png
-Trevenant,images/Pokemon/Trevenant.png,Curse/Pain Split,47.08,1.62,Defender,images/Moves/Trevenant - Curse.png,images/Moves/Trevenant - Pain Split.png
-Trevenant,images/Pokemon/Trevenant.png,Wood Hammer/Pain Split,50.48,0.48,Defender,images/Moves/Trevenant - Wood Hammer.png,images/Moves/Trevenant - Pain Split.png
-Trevenant,images/Pokemon/Trevenant.png,Wood Hammer/Horn Leech,51.49,15.21,Defender,images/Moves/Trevenant - Wood Hammer.png,images/Moves/Trevenant - Horn Leech.png
-Trevenant,images/Pokemon/Trevenant.png,Curse/Horn Leech,49.87,5.19,Defender,images/Moves/Trevenant - Curse.png,images/Moves/Trevenant - Horn Leech.png
-Tsareena,images/Pokemon/Tsareena.png,Stomp/Trop Kick,52.86,8.12,All-Rounder,images/Moves/Tsareena - Stomp.png,images/Moves/Tsareena - Trop Kick.png
-Tsareena,images/Pokemon/Tsareena.png,Stomp/Grassy Glide,53.96,2.33,All-Rounder,images/Moves/Tsareena - Stomp.png,images/Moves/Tsareena - Grassy Glide.png
-Tsareena,images/Pokemon/Tsareena.png,Triple Axel/Trop Kick,48.88,1.88,All-Rounder,images/Moves/Tsareena - Triple Axel.png,images/Moves/Tsareena - Trop Kick.png
-Tsareena,images/Pokemon/Tsareena.png,Triple Axel/Grassy Glide,49.12,0.93,All-Rounder,images/Moves/Tsareena - Triple Axel.png,images/Moves/Tsareena - Grassy Glide.png
-Tyranitar,images/Pokemon/Tyranitar.png,Stone Edge/Ancient Power,50.95,0.15,All-Rounder,images/Moves/Tyranitar - Stone Edge.png,images/Moves/Tyranitar - Ancient Power.png
-Tyranitar,images/Pokemon/Tyranitar.png,Dark Pulse/Sand Tomb,49.54,0.58,All-Rounder,images/Moves/Tyranitar - Dark Pulse.png,images/Moves/Tyranitar - Sand Tomb.png
-Tyranitar,images/Pokemon/Tyranitar.png,Stone Edge/Sand Tomb,51.1,2.47,All-Rounder,images/Moves/Tyranitar - Stone Edge.png,images/Moves/Tyranitar - Sand Tomb.png
-Tyranitar,images/Pokemon/Tyranitar.png,Dark Pulse/Ancient Power,47.58,1.27,All-Rounder,images/Moves/Tyranitar - Dark Pulse.png,images/Moves/Tyranitar - Ancient Power.png
-Umbreon,images/Pokemon/Umbreon.png,Mean Look/Wish,48.25,11.58,Defender,images/Moves/Umbreon - Mean Look.png,images/Moves/Umbreon - Wish.png
-Umbreon,images/Pokemon/Umbreon.png,Foul Play/Snarl,52.33,16.62,Defender,images/Moves/Umbreon - Foul Play.png,images/Moves/Umbreon - Snarl.png
-Umbreon,images/Pokemon/Umbreon.png,Foul Play/Wish,52.43,6.92,Defender,images/Moves/Umbreon - Foul Play.png,images/Moves/Umbreon - Wish.png
-Umbreon,images/Pokemon/Umbreon.png,Mean Look/Snarl,47.52,3.82,Defender,images/Moves/Umbreon - Mean Look.png,images/Moves/Umbreon - Snarl.png
-Urshifu,images/Pokemon/Urshifu_Single.png,Wicked Blow/Throat Chop,52.85,4.23,All-Rounder,images/Moves/Urshifu - Wicked Blow.png,images/Moves/Urshifu - Throat Chop.png
-Urshifu,images/Pokemon/Urshifu_Rapid.png,Surging Strikes/Liquidation,53.22,10.4,All-Rounder,images/Moves/Urshifu - Surging Strikes.png,images/Moves/Urshifu - Liquidation.png
-Venusaur,images/Pokemon/Venusaur.png,Giga Drain/Petal Dance,46.63,3.9,Attacker,images/Moves/Venusaur - Giga Drain.png,images/Moves/Venusaur - Petal Dance.png
-Venusaur,images/Pokemon/Venusaur.png,Giga Drain/Solar Beam,46.96,1.56,Attacker,images/Moves/Venusaur - Giga Drain.png,images/Moves/Venusaur - Solar Beam.png
-Venusaur,images/Pokemon/Venusaur.png,Sludge Bomb/Petal Dance,42.31,0.35,Attacker,images/Moves/Venusaur - Sludge Bomb.png,images/Moves/Venusaur - Petal Dance.png
-Venusaur,images/Pokemon/Venusaur.png,Sludge Bomb/Solar Beam,49.63,17.67,Attacker,images/Moves/Venusaur - Sludge Bomb.png,images/Moves/Venusaur - Solar Beam.png
-Wigglytuff,images/Pokemon/Wigglytuff.png,Double Slap/Sing,51.22,8.15,Supporter,images/Moves/Wigglytuff - Double Slap.png,images/Moves/Wigglytuff - Sing.png
-Wigglytuff,images/Pokemon/Wigglytuff.png,Dazzling Gleam/Sing,49.72,3.11,Supporter,images/Moves/Wigglytuff - Dazzling Gleam.png,images/Moves/Wigglytuff - Sing.png
-Wigglytuff,images/Pokemon/Wigglytuff.png,Double Slap/Rollout,50.97,1.07,Supporter,images/Moves/Wigglytuff - Double Slap.png,images/Moves/Wigglytuff - Rollout.png
-Wigglytuff,images/Pokemon/Wigglytuff.png,Dazzling Gleam/Rollout,50.97,0.27,Supporter,images/Moves/Wigglytuff - Dazzling Gleam.png,images/Moves/Wigglytuff - Rollout.png
-Zacian,images/Pokemon/Zacian.png,Metal Claw/Agility,51.25,1.94,All-Rounder,images/Moves/Zacian - Metal Claw.png,images/Moves/Zacian - Agility.png
-Zacian,images/Pokemon/Zacian.png,Metal Claw/Play Rough,50.9,1.36,All-Rounder,images/Moves/Zacian - Metal Claw.png,images/Moves/Zacian - Play Rough.png
-Zacian,images/Pokemon/Zacian.png,Sacred Sword/Agility,53.78,6.76,All-Rounder,images/Moves/Zacian - Sacred Sword.png,images/Moves/Zacian - Agility.png
-Zacian,images/Pokemon/Zacian.png,Sacred Sword/Play Rough,47.81,0.65,All-Rounder,images/Moves/Zacian - Sacred Sword.png,images/Moves/Zacian - Play Rough.png
-Zeraora,images/Pokemon/Zeraora.png,Spark/Discharge,49.29,4.12,Speedster,images/Moves/Zeraora - Spark.png,images/Moves/Zeraora - Discharge.png
-Zeraora,images/Pokemon/Zeraora.png,Spark/Wild Charge,47.03,3.29,Speedster,images/Moves/Zeraora - Spark.png,images/Moves/Zeraora - Wild Charge.png
-Zeraora,images/Pokemon/Zeraora.png,Volt Switch/Wild Charge,41.24,0.35,Speedster,images/Moves/Zeraora - Volt Switch.png,images/Moves/Zeraora - Wild Charge.png
-Zeraora,images/Pokemon/Zeraora.png,Volt Switch/Discharge,49.28,5.74,Speedster,images/Moves/Zeraora - Volt Switch.png,images/Moves/Zeraora - Discharge.png
-Zoroark,images/Pokemon/Zoroark.png,Shadow Claw/Feint Attack,48.65,5.03,Speedster,images/Moves/Zoroark - Shadow Claw.png,images/Moves/Zoroark - Feint Attack.png
-Zoroark,images/Pokemon/Zoroark.png,Cut/Night Slash,45.28,1.12,Speedster,images/Moves/Zoroark - Cut.png,images/Moves/Zoroark - Night Slash.png
-Zoroark,images/Pokemon/Zoroark.png,Shadow Claw/Night Slash,40.51,0.55,Speedster,images/Moves/Zoroark - Shadow Claw.png,images/Moves/Zoroark - Night Slash.png
-Zoroark,images/Pokemon/Zoroark.png,Cut/Feint Attack,44.41,0.41,Speedster,images/Moves/Zoroark - Cut.png,images/Moves/Zoroark - Feint Attack.png
+Absol,images/Pokemon/Absol.png,Pursuit/Sucker Punch,49.48,8.57,Speedster,images/Moves/Absol - Pursuit.png,images/Moves/Absol - Sucker Punch.png
+Absol,images/Pokemon/Absol.png,Pursuit/Psycho Cut,50.66,8.13,Speedster,images/Moves/Absol - Pursuit.png,images/Moves/Absol - Psycho Cut.png
+Absol,images/Pokemon/Absol.png,Night Slash/Psycho Cut,48.17,2.57,Speedster,images/Moves/Absol - Night Slash.png,images/Moves/Absol - Psycho Cut.png
+Absol,images/Pokemon/Absol.png,Night Slash/Sucker Punch,44.01,0.43,Speedster,images/Moves/Absol - Night Slash.png,images/Moves/Absol - Sucker Punch.png
+Aegislash,images/Pokemon/Aegislash.png,Sacred Sword/Wide Guard,47.63,5.19,All-Rounder,images/Moves/Aegislash - Sacred Sword.png,images/Moves/Aegislash - Wide Guard.png
+Aegislash,images/Pokemon/Aegislash.png,Shadow Claw/Wide Guard,48.28,2.66,All-Rounder,images/Moves/Aegislash - Shadow Claw.png,images/Moves/Aegislash - Wide Guard.png
+Aegislash,images/Pokemon/Aegislash.png,Shadow Claw/Iron Head,46.54,0.61,All-Rounder,images/Moves/Aegislash - Shadow Claw.png,images/Moves/Aegislash - Iron Head.png
+Aegislash,images/Pokemon/Aegislash.png,Sacred Sword/Iron Head,42.9,0.22,All-Rounder,images/Moves/Aegislash - Sacred Sword.png,images/Moves/Aegislash - Iron Head.png
+Alolan Ninetales,images/Pokemon/Alolan Ninetales.png,Avalanche/Aurora Veil,52.44,0.15,Attacker,images/Moves/Alolan Ninetales - Avalanche.png,images/Moves/Alolan Ninetales - Aurora Veil.png
+Alolan Ninetales,images/Pokemon/Alolan Ninetales.png,Dazzling Gleam/Blizzard,46.49,0.33,Attacker,images/Moves/Alolan Ninetales - Dazzling Gleam.png,images/Moves/Alolan Ninetales - Blizzard.png
+Alolan Ninetales,images/Pokemon/Alolan Ninetales.png,Avalanche/Blizzard,46.48,6.69,Attacker,images/Moves/Alolan Ninetales - Avalanche.png,images/Moves/Alolan Ninetales - Blizzard.png
+Alolan Ninetales,images/Pokemon/Alolan Ninetales.png,Dazzling Gleam/Aurora Veil,47.84,1.76,Attacker,images/Moves/Alolan Ninetales - Dazzling Gleam.png,images/Moves/Alolan Ninetales - Aurora Veil.png
+Armarouge,images/Pokemon/Armarouge.png,Armor Cannon/Psyshock,54.23,19.28,Attacker,images/Moves/Armarouge - Armor Cannon.png,images/Moves/Armarouge - Psyshock.png
+Armarouge,images/Pokemon/Armarouge.png,Fire Spin/Flame Charge,52.17,14.28,Attacker,images/Moves/Armarouge - Fire Spin.png,images/Moves/Armarouge - Flame Charge.png
+Armarouge,images/Pokemon/Armarouge.png,Armor Cannon/Flame Charge,50.67,5.54,Attacker,images/Moves/Armarouge - Armor Cannon.png,images/Moves/Armarouge - Flame Charge.png
+Armarouge,images/Pokemon/Armarouge.png,Fire Spin/Psyshock,45.6,1.13,Attacker,images/Moves/Armarouge - Fire Spin.png,images/Moves/Armarouge - Psyshock.png
+Azumarill,images/Pokemon/Azumarill.png,Water Pulse/Whirlpool,46.08,0.28,All-Rounder,images/Moves/Azumarill - Water Pulse.png,images/Moves/Azumarill - Whirlpool.png
+Azumarill,images/Pokemon/Azumarill.png,Play Rough/Aqua Tail,39.36,0.43,All-Rounder,images/Moves/Azumarill - Play Rough.png,images/Moves/Azumarill - Aqua Tail.png
+Azumarill,images/Pokemon/Azumarill.png,Water Pulse/Aqua Tail,50.0,4.2,All-Rounder,images/Moves/Azumarill - Water Pulse.png,images/Moves/Azumarill - Aqua Tail.png
+Azumarill,images/Pokemon/Azumarill.png,Play Rough/Whirlpool,46.75,2.64,All-Rounder,images/Moves/Azumarill - Play Rough.png,images/Moves/Azumarill - Whirlpool.png
+Blastoise,images/Pokemon/Blastoise.png,Hydro Pump/Surf,47.5,7.76,Defender,images/Moves/Blastoise - Hydro Pump.png,images/Moves/Blastoise - Surf.png
+Blastoise,images/Pokemon/Blastoise.png,Water Spout/Rapid Spin,48.97,1.25,Defender,images/Moves/Blastoise - Water Spout.png,images/Moves/Blastoise - Rapid Spin.png
+Blastoise,images/Pokemon/Blastoise.png,Hydro Pump/Rapid Spin,45.25,0.67,Defender,images/Moves/Blastoise - Hydro Pump.png,images/Moves/Blastoise - Rapid Spin.png
+Blaziken,images/Pokemon/Blaziken.png,All,50.33,20.77,All-Rounder,images/Moves/Blaziken - Overheat.png,images/Moves/Blaziken - Blaze Kick.png
+Blissey,images/Pokemon/Blissey.png,Egg Bomb/Soft-Boiled,50.29,22.21,Supporter,images/Moves/Blissey - Egg Bomb.png,images/Moves/Blissey - Soft-Boiled.png
+Blissey,images/Pokemon/Blissey.png,Helping Hand/Safeguard,49.2,1.64,Supporter,images/Moves/Blissey - Helping Hand.png,images/Moves/Blissey - Safeguard.png
+Blissey,images/Pokemon/Blissey.png,Helping Hand/Soft-Boiled,45.15,0.44,Supporter,images/Moves/Blissey - Helping Hand.png,images/Moves/Blissey - Soft-Boiled.png
+Buzzwole,images/Pokemon/Buzzwole.png,Smack Down/Superpower,46.0,5.2,All-Rounder,images/Moves/Buzzwole - Smack Down.png,images/Moves/Buzzwole - Superpower.png
+Buzzwole,images/Pokemon/Buzzwole.png,Smack Down/Leech Life,45.42,4.17,All-Rounder,images/Moves/Buzzwole - Smack Down.png,images/Moves/Buzzwole - Leech Life.png
+Buzzwole,images/Pokemon/Buzzwole.png,Lunge/Leech Life,46.45,2.75,All-Rounder,images/Moves/Buzzwole - Lunge.png,images/Moves/Buzzwole - Leech Life.png
+Buzzwole,images/Pokemon/Buzzwole.png,Lunge/Superpower,49.44,0.61,All-Rounder,images/Moves/Buzzwole - Lunge.png,images/Moves/Buzzwole - Superpower.png
+Ceruledge,images/Pokemon/Ceruledge.png,Bitter Blade/Flame Charge,48.6,0.47,All-Rounder,images/Moves/Ceruledge - Bitter Blade.png,images/Moves/Ceruledge - Flame Charge.png
+Ceruledge,images/Pokemon/Ceruledge.png,Psycho Cut/Flame Charge,48.3,3.77,All-Rounder,images/Moves/Ceruledge - Psycho Cut.png,images/Moves/Ceruledge - Flame Charge.png
+Ceruledge,images/Pokemon/Ceruledge.png,Bitter Blade/Phantom Force,51.36,19.2,All-Rounder,images/Moves/Ceruledge - Bitter Blade.png,images/Moves/Ceruledge - Phantom Force.png
+Ceruledge,images/Pokemon/Ceruledge.png,Psycho Cut/Phantom Force,51.42,7.6,All-Rounder,images/Moves/Ceruledge - Psycho Cut.png,images/Moves/Ceruledge - Phantom Force.png
+Chandelure,images/Pokemon/Chandelure.png,Overheat/Imprison,48.41,2.06,Attacker,images/Moves/Chandelure - Overheat.png,images/Moves/Chandelure - Imprison.png
+Chandelure,images/Pokemon/Chandelure.png,Flamethrower/Imprison,47.81,1.56,Attacker,images/Moves/Chandelure - Flamethrower.png,images/Moves/Chandelure - Imprison.png
+Chandelure,images/Pokemon/Chandelure.png,Flamethrower/Poltergeist,49.28,1.09,Attacker,images/Moves/Chandelure - Flamethrower.png,images/Moves/Chandelure - Poltergeist.png
+Chandelure,images/Pokemon/Chandelure.png,Overheat/Poltergeist,48.11,0.96,Attacker,images/Moves/Chandelure - Overheat.png,images/Moves/Chandelure - Poltergeist.png
+Charizard,images/Pokemon/Charizard.png,Flamethrower/Fire Blast,53.88,12.81,All-Rounder,images/Moves/Charizard - Flamethrower.png,images/Moves/Charizard - Fire Blast.png
+Charizard,images/Pokemon/Charizard.png,Fire Punch/Flare Blitz,51.29,6.82,All-Rounder,images/Moves/Charizard - Fire Punch.png,images/Moves/Charizard - Flare Blitz.png
+Charizard,images/Pokemon/Charizard.png,Flamethrower/Flare Blitz,52.89,4.1,All-Rounder,images/Moves/Charizard - Flamethrower.png,images/Moves/Charizard - Flare Blitz.png
+Charizard,images/Pokemon/Charizard.png,Fire Punch/Fire Blast,49.24,2.11,All-Rounder,images/Moves/Charizard - Fire Punch.png,images/Moves/Charizard - Fire Blast.png
+Cinderace,images/Pokemon/Cinderace.png,Blaze Kick/Feint,49.0,4.89,Attacker,images/Moves/Cinderace - Blaze Kick.png,images/Moves/Cinderace - Feint.png
+Cinderace,images/Pokemon/Cinderace.png,Blaze Kick/Flame Charge,51.33,3.98,Attacker,images/Moves/Cinderace - Blaze Kick.png,images/Moves/Cinderace - Flame Charge.png
+Cinderace,images/Pokemon/Cinderace.png,Pyro Ball/Flame Charge,45.49,3.48,Attacker,images/Moves/Cinderace - Pyro Ball.png,images/Moves/Cinderace - Flame Charge.png
+Cinderace,images/Pokemon/Cinderace.png,Pyro Ball/Feint,45.42,3.09,Attacker,images/Moves/Cinderace - Pyro Ball.png,images/Moves/Cinderace - Feint.png
+Clefable,images/Pokemon/Clefable.png,Moonlight/Follow Me,50.73,2.14,Supporter,images/Moves/Clefable - Moonlight.png,images/Moves/Clefable - Follow Me.png
+Clefable,images/Pokemon/Clefable.png,Draining Kiss/Gravity,41.41,0.22,Supporter,images/Moves/Clefable - Draining Kiss.png,images/Moves/Clefable - Gravity.png
+Clefable,images/Pokemon/Clefable.png,Moonlight/Gravity,47.67,11.64,Supporter,images/Moves/Clefable - Moonlight.png,images/Moves/Clefable - Gravity.png
+Clefable,images/Pokemon/Clefable.png,Draining Kiss/Follow Me,43.52,0.54,Supporter,images/Moves/Clefable - Draining Kiss.png,images/Moves/Clefable - Follow Me.png
+Comfey,images/Pokemon/Comfey.png,Floral Healing/Magical Leaf,47.29,7.14,Supporter,images/Moves/Comfey - Floral Healing.png,images/Moves/Comfey - Magical Leaf.png
+Comfey,images/Pokemon/Comfey.png,Floral Healing/Grass Knot,49.69,5.78,Supporter,images/Moves/Comfey - Floral Healing.png,images/Moves/Comfey - Grass Knot.png
+Comfey,images/Pokemon/Comfey.png,Sweet Kiss/Grass Knot,43.3,0.52,Supporter,images/Moves/Comfey - Sweet Kiss.png,images/Moves/Comfey - Grass Knot.png
+Cramorant,images/Pokemon/Cramorant.png,Dive/Hurricane,51.85,3.21,Attacker,images/Moves/Cramorant - Dive.png,images/Moves/Cramorant - Hurricane.png
+Cramorant,images/Pokemon/Cramorant.png,Dive/Air Slash,52.36,3.01,Attacker,images/Moves/Cramorant - Dive.png,images/Moves/Cramorant - Air Slash.png
+Cramorant,images/Pokemon/Cramorant.png,Surf/Hurricane,46.26,1.86,Attacker,images/Moves/Cramorant - Surf.png,images/Moves/Cramorant - Hurricane.png
+Crustle,images/Pokemon/Crustle.png,Shell Smash/X-Scissor,50.15,4.25,Defender,images/Moves/Crustle - Shell Smash.png,images/Moves/Crustle - X-Scissor.png
+Crustle,images/Pokemon/Crustle.png,Shell Smash/Stealth Rock,50.15,5.13,Defender,images/Moves/Crustle - Shell Smash.png,images/Moves/Crustle - Stealth Rock.png
+Crustle,images/Pokemon/Crustle.png,Rock Tomb/X-Scissor,51.81,4.3,Defender,images/Moves/Crustle - Rock Tomb.png,images/Moves/Crustle - X-Scissor.png
+Crustle,images/Pokemon/Crustle.png,Rock Tomb/Stealth Rock,51.45,2.33,Defender,images/Moves/Crustle - Rock Tomb.png,images/Moves/Crustle - Stealth Rock.png
+Decidueye,images/Pokemon/Decidueye.png,Spirit Shackle/Leaf Storm,45.88,1.77,Attacker,images/Moves/Decidueye - Spirit Shackle.png,images/Moves/Decidueye - Leaf Storm.png
+Decidueye,images/Pokemon/Decidueye.png,Razor Leaf/Shadow Sneak,49.1,2.26,Attacker,images/Moves/Decidueye - Razor Leaf.png,images/Moves/Decidueye - Shadow Sneak.png
+Decidueye,images/Pokemon/Decidueye.png,Razor Leaf/Leaf Storm,47.66,3.88,Attacker,images/Moves/Decidueye - Razor Leaf.png,images/Moves/Decidueye - Leaf Storm.png
+Decidueye,images/Pokemon/Decidueye.png,Spirit Shackle/Shadow Sneak,49.0,12.2,Attacker,images/Moves/Decidueye - Spirit Shackle.png,images/Moves/Decidueye - Shadow Sneak.png
+Delphox,images/Pokemon/Delphox.png,Fire Blast/Fire Spin,49.3,11.43,Attacker,images/Moves/Delphox - Fire Blast.png,images/Moves/Delphox - Fire Spin.png
+Delphox,images/Pokemon/Delphox.png,Mystical Fire/Fire Spin,50.85,5.05,Attacker,images/Moves/Delphox - Mystical Fire.png,images/Moves/Delphox - Fire Spin.png
+Delphox,images/Pokemon/Delphox.png,Mystical Fire/Flame Charge,51.16,1.49,Attacker,images/Moves/Delphox - Mystical Fire.png,images/Moves/Delphox - Flame Charge.png
+Dodrio,images/Pokemon/Dodrio.png,Tri Attack/Jump Kick,53.67,4.77,Speedster,images/Moves/Dodrio - Tri Attack.png,images/Moves/Dodrio - Jump Kick.png
+Dodrio,images/Pokemon/Dodrio.png,Drill Peck/Jump Kick,47.19,1.83,Speedster,images/Moves/Dodrio - Drill Peck.png,images/Moves/Dodrio - Jump Kick.png
+Dodrio,images/Pokemon/Dodrio.png,Tri Attack/Agility,47.84,0.36,Speedster,images/Moves/Dodrio - Tri Attack.png,images/Moves/Dodrio - Agility.png
+Dodrio,images/Pokemon/Dodrio.png,Drill Peck/Agility,42.47,0.15,Speedster,images/Moves/Dodrio - Drill Peck.png,images/Moves/Dodrio - Agility.png
+Dragapult,images/Pokemon/Dragapult.png,Shadow Ball/Phantom Force,50.6,4.96,Attacker,images/Moves/Dragapult - Shadow Ball.png,images/Moves/Dragapult - Phantom Force.png
+Dragapult,images/Pokemon/Dragapult.png,Dragon Breath/Dragon Dance,48.89,1.6,Attacker,images/Moves/Dragapult - Dragon Breath.png,images/Moves/Dragapult - Dragon Dance.png
+Dragapult,images/Pokemon/Dragapult.png,Dragon Breath/Phantom Force,48.16,0.59,Attacker,images/Moves/Dragapult - Dragon Breath.png,images/Moves/Dragapult - Phantom Force.png
+Dragapult,images/Pokemon/Dragapult.png,Shadow Ball/Dragon Dance,46.24,0.44,Attacker,images/Moves/Dragapult - Shadow Ball.png,images/Moves/Dragapult - Dragon Dance.png
+Dragonite,images/Pokemon/Dragonite.png,Extreme Speed/Outrage,47.93,3.31,All-Rounder,images/Moves/Dragonite - Extreme Speed.png,images/Moves/Dragonite - Outrage.png
+Dragonite,images/Pokemon/Dragonite.png,Dragon Dance/Outrage,49.75,3.88,All-Rounder,images/Moves/Dragonite - Dragon Dance.png,images/Moves/Dragonite - Outrage.png
+Dragonite,images/Pokemon/Dragonite.png,Dragon Dance/Hyper Beam,51.9,3.98,All-Rounder,images/Moves/Dragonite - Dragon Dance.png,images/Moves/Dragonite - Hyper Beam.png
+Duraludon,images/Pokemon/Duraludon.png,Flash Cannon/Dragon Tail,48.87,1.12,Attacker,images/Moves/Duraludon - Flash Cannon.png,images/Moves/Duraludon - Dragon Tail.png
+Duraludon,images/Pokemon/Duraludon.png,Flash Cannon/Stealth Rock,51.52,0.84,Attacker,images/Moves/Duraludon - Flash Cannon.png,images/Moves/Duraludon - Stealth Rock.png
+Duraludon,images/Pokemon/Duraludon.png,Dragon Pulse/Stealth Rock,52.74,0.61,Attacker,images/Moves/Duraludon - Dragon Pulse.png,images/Moves/Duraludon - Stealth Rock.png
+Duraludon,images/Pokemon/Duraludon.png,Dragon Pulse/Dragon Tail,43.67,0.21,Attacker,images/Moves/Duraludon - Dragon Pulse.png,images/Moves/Duraludon - Dragon Tail.png
+Eldegoss,images/Pokemon/Eldegoss.png,Pollen Puff/Cotton Guard,52.12,16.6,Supporter,images/Moves/Eldegoss - Pollen Puff.png,images/Moves/Eldegoss - Cotton Guard.png
+Eldegoss,images/Pokemon/Eldegoss.png,Pollen Puff/Cotton Spore,51.82,9.67,Supporter,images/Moves/Eldegoss - Pollen Puff.png,images/Moves/Eldegoss - Cotton Spore.png
+Eldegoss,images/Pokemon/Eldegoss.png,Leaf Tornado/Cotton Spore,47.52,0.59,Supporter,images/Moves/Eldegoss - Leaf Tornado.png,images/Moves/Eldegoss - Cotton Spore.png
+Eldegoss,images/Pokemon/Eldegoss.png,Leaf Tornado/Cotton Guard,44.43,0.52,Supporter,images/Moves/Eldegoss - Leaf Tornado.png,images/Moves/Eldegoss - Cotton Guard.png
+Espeon,images/Pokemon/Espeon.png,Stored Power/Psybeam,48.14,7.63,Attacker,images/Moves/Espeon - Stored Power.png,images/Moves/Espeon - Psybeam.png
+Espeon,images/Pokemon/Espeon.png,Psyshock/Psybeam,46.2,3.13,Attacker,images/Moves/Espeon - Psyshock.png,images/Moves/Espeon - Psybeam.png
+Espeon,images/Pokemon/Espeon.png,Stored Power/Future Sight,45.61,2.32,Attacker,images/Moves/Espeon - Stored Power.png,images/Moves/Espeon - Future Sight.png
+Espeon,images/Pokemon/Espeon.png,Psyshock/Future Sight,43.51,0.74,Attacker,images/Moves/Espeon - Psyshock.png,images/Moves/Espeon - Future Sight.png
+Falinks,images/Pokemon/Falinks.png,Iron Head/No Retreat,44.24,0.26,All-Rounder,images/Moves/Falinks - Iron Head.png,images/Moves/Falinks - No Retreat.png
+Falinks,images/Pokemon/Falinks.png,Megahorn/Beat Up,39.69,0.13,All-Rounder,images/Moves/Falinks - Megahorn.png,images/Moves/Falinks - Beat Up.png
+Falinks,images/Pokemon/Falinks.png,Iron Head/Beat Up,51.94,0.9,All-Rounder,images/Moves/Falinks - Iron Head.png,images/Moves/Falinks - Beat Up.png
+Falinks,images/Pokemon/Falinks.png,Megahorn/No Retreat,47.13,0.48,All-Rounder,images/Moves/Falinks - Megahorn.png,images/Moves/Falinks - No Retreat.png
+Garchomp,images/Pokemon/Garchomp.png,Dragon Rush/Dragon Claw,52.45,6.72,All-Rounder,images/Moves/Garchomp - Dragon Rush.png,images/Moves/Garchomp - Dragon Claw.png
+Garchomp,images/Pokemon/Garchomp.png,Dig/Earthquake,53.89,1.37,All-Rounder,images/Moves/Garchomp - Dig.png,images/Moves/Garchomp - Earthquake.png
+Garchomp,images/Pokemon/Garchomp.png,Dragon Rush/Earthquake,43.0,0.2,All-Rounder,images/Moves/Garchomp - Dragon Rush.png,images/Moves/Garchomp - Earthquake.png
+Garchomp,images/Pokemon/Garchomp.png,Dig/Dragon Claw,44.95,0.15,All-Rounder,images/Moves/Garchomp - Dig.png,images/Moves/Garchomp - Dragon Claw.png
+Gardevoir,images/Pokemon/Gardevoir.png,Psychic/Psyshock,49.14,4.34,Attacker,images/Moves/Gardevoir - Psychic.png,images/Moves/Gardevoir - Psyshock.png
+Gardevoir,images/Pokemon/Gardevoir.png,Moonblast/Psyshock,50.8,3.92,Attacker,images/Moves/Gardevoir - Moonblast.png,images/Moves/Gardevoir - Psyshock.png
+Gardevoir,images/Pokemon/Gardevoir.png,Moonblast/Future Sight,49.54,3.04,Attacker,images/Moves/Gardevoir - Moonblast.png,images/Moves/Gardevoir - Future Sight.png
+Gardevoir,images/Pokemon/Gardevoir.png,Psychic/Future Sight,49.5,1.48,Attacker,images/Moves/Gardevoir - Psychic.png,images/Moves/Gardevoir - Future Sight.png
+Gengar,images/Pokemon/Gengar.png,Shadow Ball/Dream Eater,49.36,6.61,Speedster,images/Moves/Gengar - Shadow Ball.png,images/Moves/Gengar - Dream Eater.png
+Gengar,images/Pokemon/Gengar.png,Sludge Bomb/Hex,50.12,5.48,Speedster,images/Moves/Gengar - Sludge Bomb.png,images/Moves/Gengar - Hex.png
+Gengar,images/Pokemon/Gengar.png,Shadow Ball/Hex,33.79,0.15,Speedster,images/Moves/Gengar - Shadow Ball.png,images/Moves/Gengar - Hex.png
+Glaceon,images/Pokemon/Glaceon.png,Icy Wind/Ice Shard,43.62,0.1,Attacker,images/Moves/Glaceon - Icy Wind.png,images/Moves/Glaceon - Ice Shard.png
+Glaceon,images/Pokemon/Glaceon.png,Icicle Spear/Freeze-Dry,37.5,0.08,Attacker,images/Moves/Glaceon - Icicle Spear.png,images/Moves/Glaceon - Freeze-Dry.png
+Glaceon,images/Pokemon/Glaceon.png,Icicle Spear/Ice Shard,45.5,6.7,Attacker,images/Moves/Glaceon - Icicle Spear.png,images/Moves/Glaceon - Ice Shard.png
+Glaceon,images/Pokemon/Glaceon.png,Icy Wind/Freeze-Dry,51.16,0.62,Attacker,images/Moves/Glaceon - Icy Wind.png,images/Moves/Glaceon - Freeze-Dry.png
+Goodra,images/Pokemon/Goodra.png,Dragon Pulse/Power Whip,46.93,3.2,Defender,images/Moves/Goodra - Dragon Pulse.png,images/Moves/Goodra - Power Whip.png
+Goodra,images/Pokemon/Goodra.png,Dragon Pulse/Acid Spray,46.73,1.8,Defender,images/Moves/Goodra - Dragon Pulse.png,images/Moves/Goodra - Acid Spray.png
+Goodra,images/Pokemon/Goodra.png,Muddy Water/Power Whip,50.41,1.15,Defender,images/Moves/Goodra - Muddy Water.png,images/Moves/Goodra - Power Whip.png
+Goodra,images/Pokemon/Goodra.png,Muddy Water/Acid Spray,51.66,1.0,Defender,images/Moves/Goodra - Muddy Water.png,images/Moves/Goodra - Acid Spray.png
+Greedent,images/Pokemon/Greedent.png,Bullet Seed/Covet,34.72,0.05,Defender,images/Moves/Greedent - Bullet Seed.png,images/Moves/Greedent - Covet.png
+Greedent,images/Pokemon/Greedent.png,Belch/Stuff Cheeks,41.73,0.09,Defender,images/Moves/Greedent - Belch.png,images/Moves/Greedent - Stuff Cheeks.png
+Greedent,images/Pokemon/Greedent.png,Bullet Seed/Stuff Cheeks,47.95,1.44,Defender,images/Moves/Greedent - Bullet Seed.png,images/Moves/Greedent - Stuff Cheeks.png
+Greedent,images/Pokemon/Greedent.png,Belch/Covet,48.36,0.94,Defender,images/Moves/Greedent - Belch.png,images/Moves/Greedent - Covet.png
+Greninja,images/Pokemon/Greninja.png,Water Shuriken/Double Team,50.11,17.66,Attacker,images/Moves/Greninja - Water Shuriken.png,images/Moves/Greninja - Double Team.png
+Greninja,images/Pokemon/Greninja.png,Surf/Smokescreen,51.71,7.7,Attacker,images/Moves/Greninja - Surf.png,images/Moves/Greninja - Smokescreen.png
+Greninja,images/Pokemon/Greninja.png,Surf/Double Team,51.37,5.92,Attacker,images/Moves/Greninja - Surf.png,images/Moves/Greninja - Double Team.png
+Greninja,images/Pokemon/Greninja.png,Water Shuriken/Smokescreen,43.7,0.76,Attacker,images/Moves/Greninja - Water Shuriken.png,images/Moves/Greninja - Smokescreen.png
+Gyarados,images/Pokemon/Gyarados.png,Dragon Breath/Bounce,53.22,15.6,All-Rounder,images/Moves/Gyarados - Dragon Breath.png,images/Moves/Gyarados - Bounce.png
+Gyarados,images/Pokemon/Gyarados.png,Dragon Breath/Waterfall,49.31,2.64,All-Rounder,images/Moves/Gyarados - Dragon Breath.png,images/Moves/Gyarados - Waterfall.png
+Ho-Oh,images/Pokemon/Ho-Oh.png,Fly/Sky Attack,46.88,0.48,Defender,images/Moves/Ho-Oh - Fly.png,images/Moves/Ho-Oh - Sky Attack.png
+Ho-Oh,images/Pokemon/Ho-Oh.png,Fly/Flamethrower,48.39,1.82,Defender,images/Moves/Ho-Oh - Fly.png,images/Moves/Ho-Oh - Flamethrower.png
+Ho-Oh,images/Pokemon/Ho-Oh.png,Fire Spin/Sky Attack,52.82,12.88,Defender,images/Moves/Ho-Oh - Fire Spin.png,images/Moves/Ho-Oh - Sky Attack.png
+Ho-Oh,images/Pokemon/Ho-Oh.png,Fire Spin/Flamethrower,50.46,4.79,Defender,images/Moves/Ho-Oh - Fire Spin.png,images/Moves/Ho-Oh - Flamethrower.png
+Hoopa,images/Pokemon/Hoopa.png,Phantom Force/Trick,52.05,0.72,Supporter,images/Moves/Hoopa - Phantom Force.png,images/Moves/Hoopa - Trick.png
+Hoopa,images/Pokemon/Hoopa.png,Shadow Ball/Trick,51.7,1.37,Supporter,images/Moves/Hoopa - Shadow Ball.png,images/Moves/Hoopa - Trick.png
+Hoopa,images/Pokemon/Hoopa.png,Phantom Force/Hyperspace Hole,51.03,9.53,Supporter,images/Moves/Hoopa - Phantom Force.png,images/Moves/Hoopa - Hyperspace Hole.png
+Hoopa,images/Pokemon/Hoopa.png,Shadow Ball/Hyperspace Hole,45.71,0.41,Supporter,images/Moves/Hoopa - Shadow Ball.png,images/Moves/Hoopa - Hyperspace Hole.png
+Inteleon,images/Pokemon/Inteleon.png,Acrobatics/Liquidation,46.58,2.77,Attacker,images/Moves/Inteleon - Acrobatics.png,images/Moves/Inteleon - Liquidation.png
+Inteleon,images/Pokemon/Inteleon.png,Fell Stinger/Snipe Shot,48.65,6.42,Attacker,images/Moves/Inteleon - Fell Stinger.png,images/Moves/Inteleon - Snipe Shot.png
+Inteleon,images/Pokemon/Inteleon.png,Fell Stinger/Liquidation,45.99,0.68,Attacker,images/Moves/Inteleon - Fell Stinger.png,images/Moves/Inteleon - Liquidation.png
+Inteleon,images/Pokemon/Inteleon.png,Acrobatics/Snipe Shot,36.76,0.17,Attacker,images/Moves/Inteleon - Acrobatics.png,images/Moves/Inteleon - Snipe Shot.png
+Lapras,images/Pokemon/Lapras.png,Water Pulse/Ice Beam,47.97,1.13,Defender,images/Moves/Lapras - Water Pulse.png,images/Moves/Lapras - Ice Beam.png
+Lapras,images/Pokemon/Lapras.png,Water Pulse/Bubble Beam,48.02,0.83,Defender,images/Moves/Lapras - Water Pulse.png,images/Moves/Lapras - Bubble Beam.png
+Lapras,images/Pokemon/Lapras.png,Perish Song/Bubble Beam,47.99,0.49,Defender,images/Moves/Lapras - Perish Song.png,images/Moves/Lapras - Bubble Beam.png
+Lapras,images/Pokemon/Lapras.png,Perish Song/Ice Beam,48.77,0.78,Defender,images/Moves/Lapras - Perish Song.png,images/Moves/Lapras - Ice Beam.png
+Leafeon,images/Pokemon/Leafeon.png,Razor Leaf/Leaf Blade,43.61,1.25,Speedster,images/Moves/Leafeon - Razor Leaf.png,images/Moves/Leafeon - Leaf Blade.png
+Leafeon,images/Pokemon/Leafeon.png,Razor Leaf/Aerial Ace,50.94,12.66,Speedster,images/Moves/Leafeon - Razor Leaf.png,images/Moves/Leafeon - Aerial Ace.png
+Leafeon,images/Pokemon/Leafeon.png,Solar Blade/Leaf Blade,42.44,1.19,Speedster,images/Moves/Leafeon - Solar Blade.png,images/Moves/Leafeon - Leaf Blade.png
+Leafeon,images/Pokemon/Leafeon.png,Solar Blade/Aerial Ace,45.83,0.68,Speedster,images/Moves/Leafeon - Solar Blade.png,images/Moves/Leafeon - Aerial Ace.png
+Lucario,images/Pokemon/Lucario.png,Extreme Speed/Close Combat,40.17,0.39,All-Rounder,images/Moves/Lucario - Extreme Speed.png,images/Moves/Lucario - Close Combat.png
+Lucario,images/Pokemon/Lucario.png,Power-Up Punch/Bone Rush,42.98,0.24,All-Rounder,images/Moves/Lucario - Power-Up Punch.png,images/Moves/Lucario - Bone Rush.png
+Lucario,images/Pokemon/Lucario.png,Power-Up Punch/Close Combat,49.37,5.47,All-Rounder,images/Moves/Lucario - Power-Up Punch.png,images/Moves/Lucario - Close Combat.png
+Lucario,images/Pokemon/Lucario.png,Extreme Speed/Bone Rush,49.95,3.66,All-Rounder,images/Moves/Lucario - Extreme Speed.png,images/Moves/Lucario - Bone Rush.png
+Machamp,images/Pokemon/Machamp.png,Cross Chop/Submission,49.96,3.81,All-Rounder,images/Moves/Machamp - Cross Chop.png,images/Moves/Machamp - Submission.png
+Machamp,images/Pokemon/Machamp.png,Close Combat/Dynamic Punch,49.39,1.23,All-Rounder,images/Moves/Machamp - Close Combat.png,images/Moves/Machamp - Dynamic Punch.png
+Machamp,images/Pokemon/Machamp.png,Cross Chop/Dynamic Punch,51.05,1.21,All-Rounder,images/Moves/Machamp - Cross Chop.png,images/Moves/Machamp - Dynamic Punch.png
+Machamp,images/Pokemon/Machamp.png,Close Combat/Submission,43.98,0.62,All-Rounder,images/Moves/Machamp - Close Combat.png,images/Moves/Machamp - Submission.png
+Mamoswine,images/Pokemon/Mamoswine.png,Icicle Crash/High Horsepower,49.33,3.05,Defender,images/Moves/Mamoswine - Icicle Crash.png,images/Moves/Mamoswine - High Horsepower.png
+Mamoswine,images/Pokemon/Mamoswine.png,Icicle Crash/Earthquake,51.89,1.63,Defender,images/Moves/Mamoswine - Icicle Crash.png,images/Moves/Mamoswine - Earthquake.png
+Mamoswine,images/Pokemon/Mamoswine.png,Ice Fang/High Horsepower,44.27,4.26,Defender,images/Moves/Mamoswine - Ice Fang.png,images/Moves/Mamoswine - High Horsepower.png
+Mamoswine,images/Pokemon/Mamoswine.png,Ice Fang/Earthquake,50.66,21.18,Defender,images/Moves/Mamoswine - Ice Fang.png,images/Moves/Mamoswine - Earthquake.png
+Meowscarada,images/Pokemon/Meowscarada.png,Night Slash/Double Team,44.93,0.29,Speedster,images/Moves/Meowscarada - Night Slash.png,images/Moves/Meowscarada - Double Team.png
+Meowscarada,images/Pokemon/Meowscarada.png,Flower Trick/Trailblaze,43.37,0.24,Speedster,images/Moves/Meowscarada - Flower Trick.png,images/Moves/Meowscarada - Trailblaze.png
+Meowscarada,images/Pokemon/Meowscarada.png,Night Slash/Trailblaze,48.31,5.91,Speedster,images/Moves/Meowscarada - Night Slash.png,images/Moves/Meowscarada - Trailblaze.png
+Meowscarada,images/Pokemon/Meowscarada.png,Flower Trick/Double Team,51.14,2.3,Speedster,images/Moves/Meowscarada - Flower Trick.png,images/Moves/Meowscarada - Double Team.png
+Metagross,images/Pokemon/Metagross.png,Gyro Ball/Magnet Rise,50.4,3.77,All-Rounder,images/Moves/Metagross - Gyro Ball.png,images/Moves/Metagross - Magnet Rise.png
+Metagross,images/Pokemon/Metagross.png,Meteor Mash/Zen Headbutt,46.84,0.99,All-Rounder,images/Moves/Metagross - Meteor Mash.png,images/Moves/Metagross - Zen Headbutt.png
+Metagross,images/Pokemon/Metagross.png,Gyro Ball/Zen Headbutt,47.2,0.9,All-Rounder,images/Moves/Metagross - Gyro Ball.png,images/Moves/Metagross - Zen Headbutt.png
+Metagross,images/Pokemon/Metagross.png,Meteor Mash/Magnet Rise,48.64,0.7,All-Rounder,images/Moves/Metagross - Meteor Mash.png,images/Moves/Metagross - Magnet Rise.png
+Mew,images/Pokemon/Mew.png,All,48.15,7.14,Attacker,images/Moves/Mew - Solar Beam.png,images/Moves/Mew - Light Screen.png
+MewtwoX,images/Pokemon/MewtwoX.png,Future Sight/Teleport,48.43,0.33,All-Rounder,images/Moves/MewtwoX - Future Sight.png,images/Moves/MewtwoX - Teleport.png
+MewtwoX,images/Pokemon/MewtwoX.png,Psystrike/Recover,51.54,3.43,All-Rounder,images/Moves/MewtwoX - Psystrike.png,images/Moves/MewtwoX - Recover.png
+MewtwoX,images/Pokemon/MewtwoX.png,Future Sight/Recover,46.1,1.46,All-Rounder,images/Moves/MewtwoX - Future Sight.png,images/Moves/MewtwoX - Recover.png
+MewtwoX,images/Pokemon/MewtwoX.png,Psystrike/Teleport,47.63,0.53,All-Rounder,images/Moves/MewtwoX - Psystrike.png,images/Moves/MewtwoX - Teleport.png
+MewtwoY,images/Pokemon/MewtwoY.png,Psystrike/Teleport,48.61,2.41,Attacker,images/Moves/MewtwoY - Psystrike.png,images/Moves/MewtwoY - Teleport.png
+MewtwoY,images/Pokemon/MewtwoY.png,Future Sight/Teleport,46.73,0.7,Attacker,images/Moves/MewtwoY - Future Sight.png,images/Moves/MewtwoY - Teleport.png
+MewtwoY,images/Pokemon/MewtwoY.png,Psystrike/Recover,47.12,0.39,Attacker,images/Moves/MewtwoY - Psystrike.png,images/Moves/MewtwoY - Recover.png
+MewtwoY,images/Pokemon/MewtwoY.png,Future Sight/Recover,46.1,0.19,Attacker,images/Moves/MewtwoY - Future Sight.png,images/Moves/MewtwoY - Recover.png
+Mimikyu,images/Pokemon/Mimikyu.png,Shadow Claw/Trick Room,48.06,1.34,All-Rounder,images/Moves/Mimikyu - Shadow Claw.png,images/Moves/Mimikyu - Trick Room.png
+Mimikyu,images/Pokemon/Mimikyu.png,Play Rough/Shadow Sneak,49.91,11.84,All-Rounder,images/Moves/Mimikyu - Play Rough.png,images/Moves/Mimikyu - Shadow Sneak.png
+Mimikyu,images/Pokemon/Mimikyu.png,Shadow Claw/Shadow Sneak,49.45,7.89,All-Rounder,images/Moves/Mimikyu - Shadow Claw.png,images/Moves/Mimikyu - Shadow Sneak.png
+Miraidon,images/Pokemon/Miraidon.png,Charge Beam/Thunder,51.91,6.5,Attacker,images/Moves/Miraidon - Charge Beam.png,images/Moves/Miraidon - Thunder.png
+Miraidon,images/Pokemon/Miraidon.png,Electro Drift/Parabolic Charge,52.73,5.11,Attacker,images/Moves/Miraidon - Electro Drift.png,images/Moves/Miraidon - Parabolic Charge.png
+Miraidon,images/Pokemon/Miraidon.png,Charge Beam/Parabolic Charge,50.45,0.53,Attacker,images/Moves/Miraidon - Charge Beam.png,images/Moves/Miraidon - Parabolic Charge.png
+Miraidon,images/Pokemon/Miraidon.png,Electro Drift/Thunder,48.28,0.14,Attacker,images/Moves/Miraidon - Electro Drift.png,images/Moves/Miraidon - Thunder.png
+Mr. Mime,images/Pokemon/Mr. Mime.png,Confusion/Power Swap,51.03,0.86,Supporter,images/Moves/Mr. Mime - Confusion.png,images/Moves/Mr. Mime - Power Swap.png
+Mr. Mime,images/Pokemon/Mr. Mime.png,Psychic/Barrier,45.58,0.1,Supporter,images/Moves/Mr. Mime - Psychic.png,images/Moves/Mr. Mime - Barrier.png
+Mr. Mime,images/Pokemon/Mr. Mime.png,Psychic/Power Swap,51.8,2.47,Supporter,images/Moves/Mr. Mime - Psychic.png,images/Moves/Mr. Mime - Power Swap.png
+Mr. Mime,images/Pokemon/Mr. Mime.png,Confusion/Barrier,50.7,5.01,Supporter,images/Moves/Mr. Mime - Confusion.png,images/Moves/Mr. Mime - Barrier.png
+Pikachu,images/Pokemon/Pikachu.png,Thunder/Volt Tackle,50.35,5.36,Attacker,images/Moves/Pikachu - Thunder.png,images/Moves/Pikachu - Volt Tackle.png
+Pikachu,images/Pokemon/Pikachu.png,Electro Ball/Thunderbolt,48.25,0.89,Attacker,images/Moves/Pikachu - Electro Ball.png,images/Moves/Pikachu - Thunderbolt.png
+Pikachu,images/Pokemon/Pikachu.png,Electro Ball/Volt Tackle,51.14,27.74,Attacker,images/Moves/Pikachu - Electro Ball.png,images/Moves/Pikachu - Volt Tackle.png
+Pikachu,images/Pokemon/Pikachu.png,Thunder/Thunderbolt,50.78,10.19,Attacker,images/Moves/Pikachu - Thunder.png,images/Moves/Pikachu - Thunderbolt.png
+Sableye,images/Pokemon/Sableye.png,Knock Off/Confuse Ray,48.09,5.68,Supporter,images/Moves/Sableye - Knock Off.png,images/Moves/Sableye - Confuse Ray.png
+Sableye,images/Pokemon/Sableye.png,Knock Off/Feint Attack,46.24,1.69,Supporter,images/Moves/Sableye - Knock Off.png,images/Moves/Sableye - Feint Attack.png
+Sableye,images/Pokemon/Sableye.png,Shadow Sneak/Confuse Ray,49.11,0.95,Supporter,images/Moves/Sableye - Shadow Sneak.png,images/Moves/Sableye - Confuse Ray.png
+Sableye,images/Pokemon/Sableye.png,Shadow Sneak/Feint Attack,40.66,0.35,Supporter,images/Moves/Sableye - Shadow Sneak.png,images/Moves/Sableye - Feint Attack.png
+Scizor,images/Pokemon/Scizor.png,Bullet Punch/Swords Dance,46.74,4.13,All-Rounder,images/Moves/Scizor - Bullet Punch.png,images/Moves/Scizor - Swords Dance.png
+Scizor,images/Pokemon/Scizor.png,Bullet Punch/Double Hit,46.19,2.24,All-Rounder,images/Moves/Scizor - Bullet Punch.png,images/Moves/Scizor - Double Hit.png
+Scyther,images/Pokemon/Scyther.png,Dual Wingbeat/Swords Dance,51.06,2.36,Speedster,images/Moves/Scyther - Dual Wingbeat.png,images/Moves/Scyther - Swords Dance.png
+Scyther,images/Pokemon/Scyther.png,Dual Wingbeat/Double Hit,47.05,2.94,Speedster,images/Moves/Scyther - Dual Wingbeat.png,images/Moves/Scyther - Double Hit.png
+Slowbro,images/Pokemon/Slowbro.png,Surf/Telekinesis,48.98,10.6,Defender,images/Moves/Slowbro - Surf.png,images/Moves/Slowbro - Telekinesis.png
+Slowbro,images/Pokemon/Slowbro.png,Scald/Amnesia,50.23,7.46,Defender,images/Moves/Slowbro - Scald.png,images/Moves/Slowbro - Amnesia.png
+Slowbro,images/Pokemon/Slowbro.png,Surf/Amnesia,50.02,5.86,Defender,images/Moves/Slowbro - Surf.png,images/Moves/Slowbro - Amnesia.png
+Slowbro,images/Pokemon/Slowbro.png,Scald/Telekinesis,48.25,5.2,Defender,images/Moves/Slowbro - Scald.png,images/Moves/Slowbro - Telekinesis.png
+Snorlax,images/Pokemon/Snorlax.png,Flail/Yawn,48.34,1.33,Defender,images/Moves/Snorlax - Flail.png,images/Moves/Snorlax - Yawn.png
+Snorlax,images/Pokemon/Snorlax.png,Heavy Slam/Yawn,50.63,4.18,Defender,images/Moves/Snorlax - Heavy Slam.png,images/Moves/Snorlax - Yawn.png
+Snorlax,images/Pokemon/Snorlax.png,Heavy Slam/Block,47.67,3.58,Defender,images/Moves/Snorlax - Heavy Slam.png,images/Moves/Snorlax - Block.png
+Snorlax,images/Pokemon/Snorlax.png,Flail/Block,45.67,0.93,Defender,images/Moves/Snorlax - Flail.png,images/Moves/Snorlax - Block.png
+Sylveon,images/Pokemon/Sylveon.png,Mystical Fire/Calm Mind,45.62,0.22,Attacker,images/Moves/Sylveon - Mystical Fire.png,images/Moves/Sylveon - Calm Mind.png
+Sylveon,images/Pokemon/Sylveon.png,Mystical Fire/Draining Kiss,49.08,10.59,Attacker,images/Moves/Sylveon - Mystical Fire.png,images/Moves/Sylveon - Draining Kiss.png
+Sylveon,images/Pokemon/Sylveon.png,Hyper Voice/Calm Mind,46.85,3.85,Attacker,images/Moves/Sylveon - Hyper Voice.png,images/Moves/Sylveon - Calm Mind.png
+Sylveon,images/Pokemon/Sylveon.png,Hyper Voice/Draining Kiss,41.98,1.9,Attacker,images/Moves/Sylveon - Hyper Voice.png,images/Moves/Sylveon - Draining Kiss.png
+Talonflame,images/Pokemon/Talonflame.png,Flame Charge/Fly,50.52,8.48,Speedster,images/Moves/Talonflame - Flame Charge.png,images/Moves/Talonflame - Fly.png
+Talonflame,images/Pokemon/Talonflame.png,Aerial Ace/Brave Bird,46.47,4.46,Speedster,images/Moves/Talonflame - Aerial Ace.png,images/Moves/Talonflame - Brave Bird.png
+Talonflame,images/Pokemon/Talonflame.png,Aerial Ace/Fly,47.26,2.56,Speedster,images/Moves/Talonflame - Aerial Ace.png,images/Moves/Talonflame - Fly.png
+Talonflame,images/Pokemon/Talonflame.png,Flame Charge/Brave Bird,41.22,0.45,Speedster,images/Moves/Talonflame - Flame Charge.png,images/Moves/Talonflame - Brave Bird.png
+Trevenant,images/Pokemon/Trevenant.png,Curse/Pain Split,46.98,1.54,Defender,images/Moves/Trevenant - Curse.png,images/Moves/Trevenant - Pain Split.png
+Trevenant,images/Pokemon/Trevenant.png,Wood Hammer/Pain Split,46.72,0.49,Defender,images/Moves/Trevenant - Wood Hammer.png,images/Moves/Trevenant - Pain Split.png
+Trevenant,images/Pokemon/Trevenant.png,Curse/Horn Leech,50.54,5.03,Defender,images/Moves/Trevenant - Curse.png,images/Moves/Trevenant - Horn Leech.png
+Trevenant,images/Pokemon/Trevenant.png,Wood Hammer/Horn Leech,51.6,15.38,Defender,images/Moves/Trevenant - Wood Hammer.png,images/Moves/Trevenant - Horn Leech.png
+Tsareena,images/Pokemon/Tsareena.png,Triple Axel/Trop Kick,49.29,1.87,All-Rounder,images/Moves/Tsareena - Triple Axel.png,images/Moves/Tsareena - Trop Kick.png
+Tsareena,images/Pokemon/Tsareena.png,Triple Axel/Grassy Glide,50.83,0.91,All-Rounder,images/Moves/Tsareena - Triple Axel.png,images/Moves/Tsareena - Grassy Glide.png
+Tsareena,images/Pokemon/Tsareena.png,Stomp/Trop Kick,51.46,6.85,All-Rounder,images/Moves/Tsareena - Stomp.png,images/Moves/Tsareena - Trop Kick.png
+Tsareena,images/Pokemon/Tsareena.png,Stomp/Grassy Glide,51.32,2.12,All-Rounder,images/Moves/Tsareena - Stomp.png,images/Moves/Tsareena - Grassy Glide.png
+Tyranitar,images/Pokemon/Tyranitar.png,Stone Edge/Sand Tomb,51.88,2.59,All-Rounder,images/Moves/Tyranitar - Stone Edge.png,images/Moves/Tyranitar - Sand Tomb.png
+Tyranitar,images/Pokemon/Tyranitar.png,Dark Pulse/Ancient Power,50.73,1.26,All-Rounder,images/Moves/Tyranitar - Dark Pulse.png,images/Moves/Tyranitar - Ancient Power.png
+Tyranitar,images/Pokemon/Tyranitar.png,Dark Pulse/Sand Tomb,51.64,0.56,All-Rounder,images/Moves/Tyranitar - Dark Pulse.png,images/Moves/Tyranitar - Sand Tomb.png
+Tyranitar,images/Pokemon/Tyranitar.png,Stone Edge/Ancient Power,42.64,0.18,All-Rounder,images/Moves/Tyranitar - Stone Edge.png,images/Moves/Tyranitar - Ancient Power.png
+Umbreon,images/Pokemon/Umbreon.png,Mean Look/Snarl,46.27,4.2,Defender,images/Moves/Umbreon - Mean Look.png,images/Moves/Umbreon - Snarl.png
+Umbreon,images/Pokemon/Umbreon.png,Mean Look/Wish,47.82,11.86,Defender,images/Moves/Umbreon - Mean Look.png,images/Moves/Umbreon - Wish.png
+Umbreon,images/Pokemon/Umbreon.png,Foul Play/Snarl,52.75,17.75,Defender,images/Moves/Umbreon - Foul Play.png,images/Moves/Umbreon - Snarl.png
+Umbreon,images/Pokemon/Umbreon.png,Foul Play/Wish,52.89,7.18,Defender,images/Moves/Umbreon - Foul Play.png,images/Moves/Umbreon - Wish.png
+Urshifu,images/Pokemon/Urshifu_Rapid.png,Surging Strikes/Liquidation,52.43,11.24,All-Rounder,images/Moves/Urshifu - Surging Strikes.png,images/Moves/Urshifu - Liquidation.png
+Urshifu,images/Pokemon/Urshifu_Single.png,Wicked Blow/Throat Chop,54.12,4.57,All-Rounder,images/Moves/Urshifu - Wicked Blow.png,images/Moves/Urshifu - Throat Chop.png
+Venusaur,images/Pokemon/Venusaur.png,Sludge Bomb/Solar Beam,50.16,17.5,Attacker,images/Moves/Venusaur - Sludge Bomb.png,images/Moves/Venusaur - Solar Beam.png
+Venusaur,images/Pokemon/Venusaur.png,Giga Drain/Petal Dance,47.09,3.81,Attacker,images/Moves/Venusaur - Giga Drain.png,images/Moves/Venusaur - Petal Dance.png
+Venusaur,images/Pokemon/Venusaur.png,Sludge Bomb/Petal Dance,44.92,0.38,Attacker,images/Moves/Venusaur - Sludge Bomb.png,images/Moves/Venusaur - Petal Dance.png
+Venusaur,images/Pokemon/Venusaur.png,Giga Drain/Solar Beam,48.74,1.51,Attacker,images/Moves/Venusaur - Giga Drain.png,images/Moves/Venusaur - Solar Beam.png
+Wigglytuff,images/Pokemon/Wigglytuff.png,Double Slap/Sing,49.98,7.99,Supporter,images/Moves/Wigglytuff - Double Slap.png,images/Moves/Wigglytuff - Sing.png
+Wigglytuff,images/Pokemon/Wigglytuff.png,Dazzling Gleam/Sing,51.06,3.11,Supporter,images/Moves/Wigglytuff - Dazzling Gleam.png,images/Moves/Wigglytuff - Sing.png
+Wigglytuff,images/Pokemon/Wigglytuff.png,Double Slap/Rollout,49.82,1.1,Supporter,images/Moves/Wigglytuff - Double Slap.png,images/Moves/Wigglytuff - Rollout.png
+Wigglytuff,images/Pokemon/Wigglytuff.png,Dazzling Gleam/Rollout,50.91,0.3,Supporter,images/Moves/Wigglytuff - Dazzling Gleam.png,images/Moves/Wigglytuff - Rollout.png
+Zacian,images/Pokemon/Zacian.png,Sacred Sword/Play Rough,47.85,0.68,All-Rounder,images/Moves/Zacian - Sacred Sword.png,images/Moves/Zacian - Play Rough.png
+Zacian,images/Pokemon/Zacian.png,Metal Claw/Play Rough,49.58,1.31,All-Rounder,images/Moves/Zacian - Metal Claw.png,images/Moves/Zacian - Play Rough.png
+Zacian,images/Pokemon/Zacian.png,Metal Claw/Agility,52.05,1.96,All-Rounder,images/Moves/Zacian - Metal Claw.png,images/Moves/Zacian - Agility.png
+Zacian,images/Pokemon/Zacian.png,Sacred Sword/Agility,54.69,7.41,All-Rounder,images/Moves/Zacian - Sacred Sword.png,images/Moves/Zacian - Agility.png
+Zeraora,images/Pokemon/Zeraora.png,Spark/Wild Charge,46.4,3.18,Speedster,images/Moves/Zeraora - Spark.png,images/Moves/Zeraora - Wild Charge.png
+Zeraora,images/Pokemon/Zeraora.png,Volt Switch/Wild Charge,39.44,0.37,Speedster,images/Moves/Zeraora - Volt Switch.png,images/Moves/Zeraora - Wild Charge.png
+Zeraora,images/Pokemon/Zeraora.png,Volt Switch/Discharge,49.17,5.69,Speedster,images/Moves/Zeraora - Volt Switch.png,images/Moves/Zeraora - Discharge.png
+Zeraora,images/Pokemon/Zeraora.png,Spark/Discharge,50.53,4.08,Speedster,images/Moves/Zeraora - Spark.png,images/Moves/Zeraora - Discharge.png
+Zoroark,images/Pokemon/Zoroark.png,Shadow Claw/Feint Attack,48.39,5.14,Speedster,images/Moves/Zoroark - Shadow Claw.png,images/Moves/Zoroark - Feint Attack.png
+Zoroark,images/Pokemon/Zoroark.png,Cut/Night Slash,47.51,1.02,Speedster,images/Moves/Zoroark - Cut.png,images/Moves/Zoroark - Night Slash.png
+Zoroark,images/Pokemon/Zoroark.png,Shadow Claw/Night Slash,44.33,0.55,Speedster,images/Moves/Zoroark - Shadow Claw.png,images/Moves/Zoroark - Night Slash.png
+Zoroark,images/Pokemon/Zoroark.png,Cut/Feint Attack,43.97,0.43,Speedster,images/Moves/Zoroark - Cut.png,images/Moves/Zoroark - Feint Attack.png

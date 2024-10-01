@@ -42,20 +42,6 @@ with open('Unite API _ Pokémon Unite Meta Tierlist.html', 'r') as fp:
         win_rate_name.append(win_mon_name['src'][19:-4])
         ban_rate_name.append(ban_mon_name['src'][19:-4])
 
-# print(pick_rate_num)
-# Change File Names that dont match
-
-# pick_rate_name[pick_rate_name.index('Ninetales')] = 'Alolan Ninetales'
-# pick_rate_name[pick_rate_name.index('MrMime')] = 'Mr. Mime'
-# pick_rate_name[pick_rate_name.index('Urshifu_Single')] = 'Urshifu'
-#
-# win_rate_name[win_rate_name.index('Ninetales')] = 'Alolan Ninetales'
-# win_rate_name[win_rate_name.index('MrMime')] = 'Mr. Mime'
-# win_rate_name[win_rate_name.index('Urshifu_Single')] = 'Urshifu'
-#
-# ban_rate_name[ban_rate_name.index('Ninetales')] = 'Alolan Ninetales'
-# ban_rate_name[ban_rate_name.index('MrMime')] = 'Mr. Mime'
-# ban_rate_name[ban_rate_name.index('Urshifu_Single')] = 'Urshifu'
 
 pick_rate_dict = {}
 for k, v in zip(pick_rate_name, pick_rate_num):
@@ -119,6 +105,7 @@ with open("roles.json") as f_in:
 path = r'C:\Users\Tanner\Documents\git\Pokemon_Unite\Pokemon_Sites'
 
 files = os.listdir(path)
+
 #
 # #%%
 all_movesets = []
@@ -236,14 +223,6 @@ df_hoopa_fix = fix_hoopa_winrate(df_hoopa, pick_rate, win_rate, pick_rate_dict)
 df = df[df['Name'] != 'Hoopa']
 df = pd.concat([df, df_hoopa_fix], ignore_index=True)
 df = df.sort_values(by='Name').reset_index(drop=True)
-# print(win_rates)
-# pick_rates = np.round(pick_rates * pick_rate_dict['Hoopa'] / 100, 4)
-#
-# skillsets = ['Phantom Force/Hyperspace Hole', 'Shadow Ball/Trick', 'Shadow Ball/Hyperspace Hole', 'Phantom Force/Trick']
-# for i, j in zip(indicies, range(len(win_rates))):
-#     df.loc[i, 'Win Rate'] = win_rates[j]
-#     df.loc[i, 'Pick Rate'] = pick_rates[j]
-#     df.loc[i, 'Move set'] = skillsets[j]
 
 # Fix Comfey Winrates
 
