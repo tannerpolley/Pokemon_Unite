@@ -16,8 +16,8 @@ from pynput import *
 # Need to setup default save location
 
 path = r'C:\Users\Tanner\Documents\git\Pokemon_Unite\Pokemon_Sites'
-new_week = False
-get_pages = False
+new_week = True
+get_pages = True
 
 if new_week:
 
