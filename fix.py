@@ -1,7 +1,4 @@
-import os
 import requests
-
-from Scrape_Winrates import Pokemon_name
 
 # # Path to the folder with files you want to rename
 # folder_path = r"C:\Users\Tanner\Documents\git\Pokemon_Unite\static\images\Pokemon"
@@ -20,10 +17,11 @@ from Scrape_Winrates import Pokemon_name
 #         # Rename the file
 #         os.rename(old_file, new_file)
 #         print(f'Renamed: {filename} -> {new_filename}')
-move_name = 'Surf'
-Pokemon_name = 'Cramorant'
-img_url = 'https://uniteapi.dev/_next/image?url=%2FSprites%2Ft_Skill_Cramorant_S11.png&w=64&q=75'
+move_name = 'Ice Hammer'
+Pokemon_name = 'Tinkaton'
+img_url = 'https://uniteapi.dev/_next/image?url=%2FSprites%2Ft_Skill_Tinkaton_S21.png&w=64&q=75'
 img_response = requests.get(img_url)
 move_1_pic_file = 'static/images/Moves/' + Pokemon_name + ' - ' + move_name + '.png'
 with open(move_1_pic_file, 'wb') as f:
+    print(move_1_pic_file)
     f.write(img_response.content)

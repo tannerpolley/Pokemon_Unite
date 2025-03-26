@@ -7,7 +7,6 @@ import numpy as np
 import gspread as gc
 from Fix_Hoopa_Winrate import fix_hoopa_winrate, fix_comfey_winrate
 
-#%%
 
 # Gather overall Win Rate and Pick Rate data from main meta page
 
@@ -76,6 +75,8 @@ for k, v in win_rate_dict.items():
         k3 = 'Ho-Oh'
     elif k == 'Meowscara':
         k3 = 'Meowscarada'
+    elif k == 'Rapidash':
+        k3 = 'Galarian Rapidash'
     else:
         k3 = k
     names.append(k3)
@@ -98,10 +99,12 @@ for i, row in df.iterrows():
 
 with open("roles.json") as f_in:
     role_dict = json.load(f_in)
+    
+print(win_rate_dict)
 #
 # #%%
 #
-
+#%%
 path = r'C:\Users\Tanner\Documents\git\Pokemon_Unite\Pokemon_Sites'
 
 files = os.listdir(path)
@@ -206,11 +209,14 @@ for file in files:
 
 # #%%
 #
+
 pd.options.display.float_format = '{:.2f}%'.format
 df = pd.DataFrame(all_movesets)
 
 columns_titles = ["Name", "Pokemon", "Move Set", "Win Rate", "Pick Rate", "Role", "Move 1", "Move 2"]
 df = df.reindex(columns=columns_titles)
+
+print(df[df["Name"] == 'Comfey'])
 
 #
 # Fix Hoopa Winrates
@@ -225,29 +231,29 @@ df = pd.concat([df, df_hoopa_fix], ignore_index=True)
 df = df.sort_values(by='Name').reset_index(drop=True)
 
 # Fix Comfey Winrates
-
-pokemon = df['Move Set'].to_list()
-name = 'Comfey'
-
-indicies = []
-for i in range(len(pokemon)):
-    if pokemon[i] == 'Floral Healing/Magical Leaf':
-        indicies.append(i)
-win_rate = win_rate_dict[name]
-pick_rate = pick_rate_dict[name]
-
-win_rates = []
-pick_rates = []
-for i in indicies:
-    win_rates.append(df.loc[i, 'Win Rate'])
-    pick_rates.append(df.loc[i, 'Pick Rate'] / pick_rate_dict[name] * 100)
-
-pick_rate, win_rate = fix_comfey_winrate(pick_rates, win_rates, pick_rate, win_rate)
-pick_rate = np.round(pick_rate * pick_rate_dict[name] / 100, 4)
-
-df.loc[indicies[0], 'Win Rate'] = win_rate
-df.loc[indicies[0], 'Pick Rate'] = pick_rate
-df.drop(index=indicies[1], inplace=True)
+#
+# pokemon = df['Move Set'].to_list()
+# name = 'Comfey'
+#
+# indicies = []
+# for i in range(len(pokemon)):
+#     if pokemon[i] == 'Floral Healing/Magical Leaf':
+#         indicies.append(i)
+# win_rate = win_rate_dict[name]
+# pick_rate = pick_rate_dict[name]
+#
+# win_rates = []
+# pick_rates = []
+# for i in indicies:
+#     win_rates.append(df.loc[i, 'Win Rate'])
+#     pick_rates.append(df.loc[i, 'Pick Rate'] / pick_rate_dict[name] * 100)
+#
+# pick_rate, win_rate = fix_comfey_winrate(pick_rates, win_rates, pick_rate, win_rate)
+# pick_rate = np.round(pick_rate * pick_rate_dict[name] / 100, 4)
+#
+# df.loc[indicies[0], 'Win Rate'] = win_rate
+# df.loc[indicies[0], 'Pick Rate'] = pick_rate
+# df.drop(index=indicies[1], inplace=True)
 
 #%%
 df['Pick Rate'] = df['Pick Rate'].round(2)

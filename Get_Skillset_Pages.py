@@ -16,8 +16,8 @@ from pynput import *
 # Need to setup default save location
 
 path = r'C:\Users\Tanner\Documents\git\Pokemon_Unite\Pokemon_Sites'
-new_week = True
-get_pages = True
+new_week = False
+get_pages = False
 
 if new_week:
 
@@ -27,7 +27,7 @@ if new_week:
 else:
     files = os.listdir(path)
 
-height = 625
+height = 580
 rows = 6
 columns = 13
 if get_pages:
@@ -35,24 +35,26 @@ if get_pages:
 
         width = -1865
         for j in range(columns):
-            if i == 5 and j == 2:
+            if i == 5 and j == 7:
 
                 break
             else:
                     pyautogui.moveTo(width, height)
                     time.sleep(.5)
                     pyautogui.scroll(-240)
-                    time.sleep(.5)
+                    time.sleep(6)
                     pyautogui.click(width, height)
                     time.sleep(4)
                     pyautogui.hotkey("ctrlleft", "s")
-                    time.sleep(2)
+                    time.sleep(4)
                     pyautogui.press("enter")
                     time.sleep(2)
-                    pyautogui.hotkey("altleft", "left")
+                    pyautogui.click(width, height)
                     time.sleep(2)
+                    pyautogui.hotkey("alt", "left")
+                    time.sleep(4)
                     width += 106
-
+        # break
         height += 132
 
 pokemon_list = []
@@ -63,6 +65,7 @@ for file in files:
 with open("roles.json") as f_in:
     role_dict = json.load(f_in)
 pokemon_list_key = role_dict.keys()
+print(len(pokemon_list_key))
 for pokemon in pokemon_list_key:
     if pokemon not in pokemon_list:
         print(pokemon)

@@ -111,7 +111,7 @@ def fix_hoopa_winrate(df_hoopa, total_pick_rate, total_win_rate, pick_rate_dict)
 
 def fix_comfey_winrate(skillsets_pick_rate, skillsets_win_rate, total_pick_rate, total_win_rate):
     total_matches = 100000
-
+    print(skillsets_pick_rate)
     total_comfey_matches = total_matches * total_pick_rate / 100
 
     skillsets_win_rate = np.array(skillsets_win_rate) / 100
