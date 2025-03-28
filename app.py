@@ -7,6 +7,7 @@ app = Flask(__name__)
 df = pd.read_csv('all_movesets.csv')
 sortable_columns = df.columns.tolist()  # Ensure this is defined at the top
 
+
 @app.route('/', methods=['GET'])
 def index():
     # Get filter parameters from the request
@@ -60,6 +61,7 @@ def index():
         sort_order=sort_order,
         sortable_columns=sortable_columns
     )
+
 
 if __name__ == '__main__':
     app.run(debug=True)
