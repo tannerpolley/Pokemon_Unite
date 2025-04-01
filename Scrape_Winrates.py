@@ -37,9 +37,9 @@ with open('Unite API _ Pokémon Unite Meta Tierlist.html', 'r') as fp:
                                                          win_rate_block.find_all('img'),
                                                          ban_rate_block.find_all('img')
                                                          ):
-        pick_rate_name.append(pick_mon_name['src'][19:-4])
-        win_rate_name.append(win_mon_name['src'][19:-4])
-        ban_rate_name.append(ban_mon_name['src'][19:-4])
+        pick_rate_name.append(pick_mon_name['src'][39:-14])
+        win_rate_name.append(win_mon_name['src'][39:-14])
+        ban_rate_name.append(ban_mon_name['src'][39:-14])
 
 
 pick_rate_dict = {}

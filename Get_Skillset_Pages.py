@@ -1,10 +1,9 @@
-import pyautogui
+# import pyautogui
 from pathlib import Path
 import time
 import os
 import numpy as np
 import json
-from pynput import *
 
 # def get_coords(x, y):
 #     print(x, y)
@@ -16,8 +15,8 @@ from pynput import *
 # Need to setup default save location
 
 path = r'C:\Users\Tanner\Documents\git\Pokemon_Unite\Pokemon_Sites'
-new_week = False
-get_pages = False
+new_week = True
+get_pages = True
 
 if new_week:
 
