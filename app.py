@@ -27,7 +27,7 @@ def index():
 
     # Filter data based on Name filter
     if name_filter:
-        filtered_df = filtered_df[filtered_df['Name'] == name_filter]  # Filter case-insensitive
+        filtered_df = filtered_df[filtered_df['Name'].str.lower() == name_filter.lower()]  # Filter case-insensitive
 
     # Filter by Pick Rate
     if pick_rate_min is not None:
@@ -48,6 +48,8 @@ def index():
     columns = filtered_df.columns.tolist()
     roles = ['Attacker', 'Speedster', 'All-Rounder', 'Supporter', 'Defender']
 
+    header_text = 'Data comes from Unite API as of April 7th'
+
     return render_template(
         'index.html',
         data=data,
@@ -59,7 +61,8 @@ def index():
         pick_rate_max=pick_rate_max if pick_rate_max is not None else '',
         sort_column=sort_column,
         sort_order=sort_order,
-        sortable_columns=sortable_columns
+        sortable_columns=sortable_columns,
+        header_text=header_text
     )
 
 
