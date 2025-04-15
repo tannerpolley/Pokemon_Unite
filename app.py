@@ -1,11 +1,15 @@
 from flask import Flask, render_template, request
 import pandas as pd
+from Scrape_Winrates import date
 
 app = Flask(__name__)
 
 # Read the CSV file when the application starts
 df = pd.read_csv('all_movesets.csv')
 sortable_columns = df.columns.tolist()  # Ensure this is defined at the top
+
+with open("date.txt", "r") as f:
+    date = f.read()
 
 
 @app.route('/', methods=['GET'])
@@ -48,7 +52,7 @@ def index():
     columns = filtered_df.columns.tolist()
     roles = ['Attacker', 'Speedster', 'All-Rounder', 'Supporter', 'Defender']
 
-    header_text = 'Data comes from Unite API as of April 7th'
+    header_text = f'Data comes from Unite API as of {date}'
 
     return render_template(
         'index.html',

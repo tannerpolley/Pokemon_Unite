@@ -12,9 +12,15 @@ from Fix_Hoopa_Winrate import fix_hoopa_winrate, fix_comfey_winrate
 
 with open('Unite API _ Pokémon Unite Meta Tierlist.html', 'r') as fp:
     soup = BeautifulSoup(fp, "html.parser")
-    # class_str = "m_4081bf90 mantine-Group-root"
-    #
-    # column_blocks = soup.find('div', class_=class_str)
+
+    date = soup.find_all('div', class_="simpleStat_stat__o0Y7q")[0]
+
+    date = date.find('p', class_="mantine-focus-auto simpleStat_count__dG_xB m_b6d8b162 mantine-Text-root").text
+
+    with open("date.txt", "w") as f:
+        f.write(date)
+
+
 
     class_str = "sc-d5d8a548-1 jXtpKR"
     # print(len(soup.find_all('div', class_=class_str)))
