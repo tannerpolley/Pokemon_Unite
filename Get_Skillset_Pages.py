@@ -21,7 +21,7 @@ path = r'C:\Users\Tanner\Documents\git\Pokemon_Unite\Pokemon_Sites'
 # if new_week:
 #
 #     files = [f.unlink() for f in Path(path).glob("*") if f.is_file() or f.is_dir()]
-#
+
 #
 # else:
 #     files = os.listdir(path)

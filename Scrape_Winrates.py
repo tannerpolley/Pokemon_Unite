@@ -12,11 +12,13 @@ from Fix_Hoopa_Winrate import fix_hoopa_winrate, fix_comfey_winrate
 
 with open('Unite API _ Pokémon Unite Meta Tierlist.html', 'r') as fp:
     soup = BeautifulSoup(fp, "html.parser")
-    class_str = "sc-eaff77bf-0 fJbBUh"
-    column_blocks = soup.find('div', class_=class_str)
+    # class_str = "m_4081bf90 mantine-Group-root"
+    #
+    # column_blocks = soup.find('div', class_=class_str)
 
-    class_str = "sc-17dce764-1 ghZPEN"
-    win_rate_block, pick_rate_block, ban_rate_block = column_blocks.find_all('div', class_=class_str)
+    class_str = "sc-d5d8a548-1 jXtpKR"
+    # print(len(soup.find_all('div', class_=class_str)))
+    win_rate_block, pick_rate_block, ban_rate_block = soup.find_all('div', class_=class_str)[2:]
 
     class_str = "sc-71f8e1a4-0 iDyfqa"
     pick_rate_num = []
