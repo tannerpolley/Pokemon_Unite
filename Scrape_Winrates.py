@@ -75,6 +75,8 @@ for k, v in win_rate_dict.items():
         combined_dict[k2].append(dict_list[i][k])
     if k == 'Ninetales':
         k3 = 'Alolan Ninetales'
+    elif k == 'Raichu':
+        k3 = 'Alolan Raichu'
     elif k == 'MrMime':
         k3 = 'Mr. Mime'
     elif k == 'Urshifu_Single':

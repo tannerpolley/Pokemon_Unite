@@ -17,11 +17,16 @@ import requests
 #         # Rename the file
 #         os.rename(old_file, new_file)
 #         print(f'Renamed: {filename} -> {new_filename}')
-move_name = 'Ice Hammer'
-Pokemon_name = 'Tinkaton'
-img_url = 'https://uniteapi.dev/_next/image?url=%2FSprites%2Ft_Skill_Tinkaton_S21.png&w=64&q=75'
+move_name = 'Electro Ball'
+Pokemon_name = 'Alolan Raichu'
+img_url = 'https://uniteapi.dev/Sprites/t_Square_Raichu.png'
 img_response = requests.get(img_url)
+name_pic_file = 'static/images/Pokemon/' + Pokemon_name + '.png'
 move_1_pic_file = 'static/images/Moves/' + Pokemon_name + ' - ' + move_name + '.png'
-with open(move_1_pic_file, 'wb') as f:
-    print(move_1_pic_file)
+# with open(move_1_pic_file, 'wb') as f:
+#     print(move_1_pic_file)
+#     f.write(img_response.content)
+
+with open(name_pic_file, 'wb') as f:
+    print(name_pic_file)
     f.write(img_response.content)
