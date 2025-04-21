@@ -1,0 +1,23 @@
+name: Auto Deploy to PythonAnywhere (Flask)
+
+on:
+  push:
+    branches:
+      - main  # You can change this to any branch you deploy from
+
+jobs:
+  deploy:
+    name: Pull & Reload on PythonAnywhere
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Deploy via PythonAnywhere API
+      env:
+        PA_USERNAME: ${{ secrets.PA_USERNAME }}
+        PA_API_TOKEN: ${{ secrets.PA_API_TOKEN }}
+        PA_SITE: ${{ secrets.PA_SITE }}  # yourname.pythonanywhere.com
+      run: |
+        echo "Triggering PythonAnywhere pull and reload for $PA_USERNAME"
+
+        curl -s -X POST "https://www.pythonanywhere.com/api/v0/user/$PA_USERNAME/webapps/$PA_SITE/reload/" \
+        -H "Authorization: Token $PA_API_TOKEN"
