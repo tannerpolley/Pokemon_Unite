@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'uniteapi-extended';
+    src: url('uniteapi-extended.woff2') format('woff2'), url('uniteapi-extended.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}

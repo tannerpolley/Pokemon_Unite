@@ -49,7 +49,7 @@ for file in files:
 
                     Battle_Items.append(battle_item.h2.text)
 
-                build_i['Battle Items'] = Battle_Items
+                build_i['Battle_Items'] = Battle_Items
 
 
                 all_builds.append(build_i)

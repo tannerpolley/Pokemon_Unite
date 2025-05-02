@@ -1,73 +1,98 @@
 from flask import Flask, render_template, request
 import pandas as pd
+import ast
 
 app = Flask(__name__)
 
-# Read the CSV file when the application starts
+# Load the exploded CSV once at startup
 df = pd.read_csv('all_movesets.csv')
-sortable_columns = df.columns.tolist()  # Ensure this is defined at the top
 
-with open("date.txt", "r") as f:
-    date = f.read()
+# Read header date\
+with open('date.txt', 'r') as f:
+    date = f.read().strip()
 
+# Define which columns are battle-item details vs static
+battle_item_cols = ['Battle Item', 'Pick Rate.1', 'Win Rate.1']
+static_columns = [c for c in df.columns if c not in battle_item_cols]
+
+# For filtering options
+roles = ['Attacker', 'Speedster', 'All-Rounder', 'Supporter', 'Defender']
 
 @app.route('/', methods=['GET'])
 def index():
-    # Get filter parameters from the request
+    # --- 1) pull filter & sort params ---
     selected_roles = request.args.getlist('roles')
-    name_filter = request.args.get('name', '')
-    pick_rate_min = request.args.get('pick_rate_min', type=float)
-    pick_rate_max = request.args.get('pick_rate_max', type=float)
-    sort_column = request.args.get('sort_column', default='Win Rate')
-    sort_order = request.args.get('sort_order', 'desc')
+    name_filter    = request.args.get('name', '').strip()
+    pick_min       = request.args.get('pick_rate_min', type=float)
+    pick_max       = request.args.get('pick_rate_max', type=float)
+    sort_col       = request.args.get('sort_column', default='Win Rate')
+    sort_order     = request.args.get('sort_order',  default='desc')
 
-    # Start with the full dataframe
-    filtered_df = df.copy()
-
-    # Filter by roles if any are selected
+    # --- 2) apply filters ---
+    df_filt = df.copy()
     if selected_roles:
-        filtered_df = filtered_df[filtered_df['Role'].isin(selected_roles)]
-
-    # Filter data based on Name filter
+        df_filt = df_filt[df_filt['Role'].isin(selected_roles)]
     if name_filter:
-        filtered_df = filtered_df[filtered_df['Name'].str.lower() == name_filter.lower()]  # Filter case-insensitive
+        df_filt = df_filt[df_filt['Name'].str.lower() == name_filter.lower()]
+    if pick_min is not None:
+        df_filt = df_filt[df_filt['Pick Rate'] >= pick_min]
+    if pick_max is not None:
+        df_filt = df_filt[df_filt['Pick Rate'] <= pick_max]
+    if sort_col in static_columns + battle_item_cols:
+        asc = (sort_order == 'asc')
+        df_filt = df_filt.sort_values(by=sort_col, ascending=asc)
 
-    # Filter by Pick Rate
-    if pick_rate_min is not None:
-        filtered_df = filtered_df[filtered_df['Pick Rate'] >= pick_rate_min]
-    if pick_rate_max is not None:
-        filtered_df = filtered_df[filtered_df['Pick Rate'] <= pick_rate_max]
+    def ensure_list(cell):
+        """
+        If `cell` is a Python-list literal string, parse and return as a list.
+        Otherwise, wrap the original value in a single-element list.
+        """
+        if isinstance(cell, str) and cell.strip().startswith('['):
+            try:
+                parsed = ast.literal_eval(cell)
+                if isinstance(parsed, list):
+                    return parsed
+            except (ValueError, SyntaxError):
+                pass
+        return [cell]
 
-    # Sorting
-    # Exclude image columns from sorting
-    image_columns = ['Pokemon', 'Move 1', 'Move 2']
-    sortable_columns = [col for col in df.columns if col not in image_columns]
+    df_filt['Move 1'] = df_filt['Move 1'].apply(ensure_list)
+    df_filt['Move 2'] = df_filt['Move 2'].apply(ensure_list)
 
-    if sort_column in sortable_columns:
-        filtered_df = filtered_df.sort_values(by=sort_column, ascending=(sort_order == 'asc'))
+    # --- 3) group into movesets ---
+    movesets = []
+    # group by both Name and Move Set so each unique build stays separate
+    for (name, moveset_name), grp in df_filt.groupby(['Name', 'Move Set'], sort=False):
+        static = {col: grp.iloc[0][col] for col in static_columns}
+        items = sorted(
+            grp[battle_item_cols].to_dict('records'),
+            key=lambda r: r['Pick Rate.1'],
+            reverse=True
+        )
+        movesets.append({
+            'static': static,
+            'items': items
+        })
 
-    # Exclude the index when passing data to the template
-    data = filtered_df.to_dict(orient='records')
-    columns = filtered_df.columns.tolist()
-    roles = ['Attacker', 'Speedster', 'All-Rounder', 'Supporter', 'Defender']
+
 
     header_text = f'Data comes from Unite API as of {date}'
 
+    # Pass movesets + column definitions to template
     return render_template(
         'index.html',
-        data=data,
-        columns=columns,
+        movesets=movesets,
+        static_columns=static_columns,
+        battle_item_cols=battle_item_cols,
         roles=roles,
         name=name_filter,
         selected_roles=selected_roles,
-        pick_rate_min=pick_rate_min if pick_rate_min is not None else '',
-        pick_rate_max=pick_rate_max if pick_rate_max is not None else '',
-        sort_column=sort_column,
+        pick_rate_min=pick_min or '',
+        pick_rate_max=pick_max or '',
+        sort_column=sort_col,
         sort_order=sort_order,
-        sortable_columns=sortable_columns,
         header_text=header_text
     )
-
 
 if __name__ == '__main__':
     app.run(debug=True)

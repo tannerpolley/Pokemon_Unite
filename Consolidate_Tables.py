@@ -14,7 +14,7 @@ pokemons_2 = df_builds['Pokemon'].to_list()
 skill_sets_2 = df_builds['Skill Set'].to_list()
 paths = df_builds['Path'].to_list()
 held_items = df_builds['Held Items'].to_list()
-battle_item_sets = df_builds['Battle Items'].to_list()
+battle_item_sets = df_builds['Battle_Items'].to_list()
 
 count = 0
 new_df = []
@@ -83,7 +83,7 @@ for i in range(len(skill_sets_1)):
             'Win Rate': win_rate,
             'Pick Rate': pick_rate,
             'Held Items': held_item_set_1,
-            'Battle Items': battle_item_set
+            'Battle_Items': battle_item_set
             }
             if pokemon_2 == 'Mimikyu':
                 print(build)

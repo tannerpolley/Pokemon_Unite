@@ -1,4 +1,4 @@
-Pokemon,Skill Set,Path,Held Items,Battle Items,Class
+Pokemon,Skill Set,Path,Held Items,Battle_Items,Class
 Absol,Night Punch,Center Damage,"['Razor Claw', 'Scope Lens', 'Attack Weight', 'Energy Amplifier']","['Full Heal', 'Eject Button']",
 Absol,Pursuit Punch,Center Damage,"['Razor Claw', 'Scope Lens', 'Attack Weight', 'Energy Amplifier']","['Full Heal', 'Eject Button']",
 Absol,Night Cut,Center Damage,"['Razor Claw', 'Scope Lens', 'Attack Weight', 'Energy Amplifier']","['Full Heal', 'Eject Button']",
