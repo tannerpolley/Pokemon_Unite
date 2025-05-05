@@ -48,9 +48,9 @@ with open('Unite API _ Pokémon Unite Meta Tierlist.html', 'r') as fp:
                                                          win_rate_block.find_all('img'),
                                                          ban_rate_block.find_all('img')
                                                          ):
-        pick_rate_name.append(pick_mon_name['src'][58:-7])
-        win_rate_name.append(win_mon_name['src'][58:-7])
-        ban_rate_name.append(ban_mon_name['src'][58:-7])
+        pick_rate_name.append(pick_mon_name['src'][39:-14])
+        win_rate_name.append(win_mon_name['src'][39:-14])
+        ban_rate_name.append(ban_mon_name['src'][39:-14])
 
 pick_rate_dict = {}
 for k, v in zip(pick_rate_name, pick_rate_num):
@@ -115,7 +115,7 @@ with open("roles.json") as f_in:
 with open("battle_items.json") as f_in:
     battle_items_dict = json.load(f_in)
 
-# print(win_rate_dict)
+print(win_rate_dict)
 #
 # #%%
 #
