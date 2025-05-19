@@ -55,8 +55,8 @@
     }
 
     /* Increase font size specifically for Win Rate column (8th column) */
-    .table-container th:nth-child(8),
-    .table-container td:nth-child(8) {
+    .table-container th:nth-child(7),
+    .table-container td:nth-child(7) {
       font-size: 1.4rem;
     }
 
@@ -122,11 +122,12 @@
             <th onclick="sortTable('Move Set')">Move Set <span class="sort-indicator">{{ '▲' if sort_column=='Move Set' and sort_order=='asc' else '▼' if sort_column=='Move Set' and sort_order=='desc' else '' }}</span></th>
             <th>Move 1</th>
             <th>Move 2</th>
-            <th onclick="sortTable('Pick Rate')">Pick Rate <span class="sort-indicator">{{ '▲' if sort_column=='Pick Rate' and sort_order=='asc' else '▼' if sort_column=='Pick Rate' and sort_order=='desc' else '' }}</span></th>
             <th onclick="sortTable('Win Rate')">Win Rate <span class="sort-indicator">{{ '▲' if sort_column=='Win Rate' and sort_order=='asc' else '▼' if sort_column=='Win Rate' and sort_order=='desc' else '' }}</span></th>
+            <th onclick="sortTable('Pick Rate')">Pick Rate <span class="sort-indicator">{{ '▲' if sort_column=='Pick Rate' and sort_order=='asc' else '▼' if sort_column=='Pick Rate' and sort_order=='desc' else '' }}</span></th>
             <th onclick="sortTable('Battle Item')">Battle Item <span class="sort-indicator">{{ '▲' if sort_column=='Battle Item' and sort_order=='asc' else '▼' if sort_column=='Battle Item' and sort_order=='desc' else '' }}</span></th>
-            <th onclick="sortTable('Pick Rate.1')">Item Pick Rate <span class="sort-indicator">{{ '▲' if sort_column=='Pick Rate.1' and sort_order=='asc' else '▼' if sort_column=='Pick Rate.1' and sort_order=='desc' else '' }}</span></th>
             <th onclick="sortTable('Win Rate.1')">Item Win Rate <span class="sort-indicator">{{ '▲' if sort_column=='Win Rate.1' and sort_order=='asc' else '▼' if sort_column=='Win Rate.1' and sort_order=='desc' else '' }}</span></th>
+            <th onclick="sortTable('Pick Rate.1')">Item Pick Rate <span class="sort-indicator">{{ '▲' if sort_column=='Pick Rate.1' and sort_order=='asc' else '▼' if sort_column=='Pick Rate.1' and sort_order=='desc' else '' }}</span></th>
+
           </tr>
         </thead>
         <tbody>
@@ -141,17 +142,20 @@
             <td rowspan="{{ n }}">{{ m.static['Move Set'] }}</td>
             <td rowspan="{{ n }}">{% for img in m.static['Move 1'] %}<img src="{{ url_for('static',filename=img) }}">{% endfor %}</td>
             <td rowspan="{{ n }}">{% for img in m.static['Move 2'] %}<img src="{{ url_for('static',filename=img) }}">{% endfor %}</td>
-            <td rowspan="{{ n }}">{{ m.static['Pick Rate'] }}%</td>
             <td rowspan="{{ n }}">{{ m.static['Win Rate'] }}%</td>
+            <td rowspan="{{ n }}">{{ m.static['Pick Rate'] }}%</td>
+
             <td><img src="{{ url_for('static', filename=items[0]['Battle Item']) }}" alt="{{ items[0]['Battle Item'] }}" style="width:25px; height:25px;"></td>
-            <td>{{ items[0]['Pick Rate.1'] }}%</td>
             <td>{{ items[0]['Win Rate.1'] }}%</td>
+            <td>{{ items[0]['Pick Rate.1'] }}%</td>
+
           </tr>
           {% for item in items[1:] %}
           <tr class="{{ cls }} sub-row">
             <td><img src="{{ url_for('static', filename=item['Battle Item']) }}" alt="{{ item['Battle Item'] }}" style="width:25px; height:25px;"></td>
-            <td>{{ item['Pick Rate.1'] }}%</td>
             <td>{{ item['Win Rate.1'] }}%</td>
+            <td>{{ item['Pick Rate.1'] }}%</td>
+
           </tr>
           {% endfor %}
           {% endfor %}

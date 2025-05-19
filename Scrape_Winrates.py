@@ -25,6 +25,9 @@ with open('Unite API _ Pokémon Unite Meta Tierlist.html', 'r') as fp:
     with open("date.txt", "w") as f:
         f.write(date)
 
+    with open("matches.txt", "w") as f:
+        f.write(str(matches))
+
     class_str = "sc-d5d8a548-1 jXtpKR"
     # print(len(soup.find_all('div', class_=class_str)))
     win_rate_block, pick_rate_block, ban_rate_block = soup.find_all('div', class_=class_str)[2:]
@@ -345,7 +348,7 @@ for file in files:
                     total_dictionary[item]['Picks'] = sum(item_dictionary[item]['Picks'])
                     total_dictionary[item]['Wins'] = sum(item_dictionary[item]['Wins'])
                     total_dictionary[item]['Pick Rate'] = total_dictionary[item]['Picks'] /mew_matches*100
-                    total_dictionary[item]['Win Rate'] = total_dictionary[item]['Wins'] / total_dictionary[item]['Picks']*100
+                    total_dictionary[item]['Win Rate'] = total_dictionary[item]['Wins'] / (total_dictionary[item]['Picks']*100 + 1e-5)
 
 
 

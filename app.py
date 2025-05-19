@@ -11,6 +11,9 @@ df = pd.read_csv('all_movesets.csv')
 with open('date.txt', 'r') as f:
     date = f.read().strip()
 
+with open('matches.txt', 'r') as f:
+    matches = float(f.read().strip())
+
 # Define which columns are battle-item details vs static
 battle_item_cols = ['Battle Item', 'Pick Rate.1', 'Win Rate.1']
 static_columns = [c for c in df.columns if c not in battle_item_cols]
@@ -23,7 +26,7 @@ def index():
     # --- 1) pull filter & sort params ---
     selected_roles = request.args.getlist('roles')
     name_filter    = request.args.get('name', '').strip()
-    pick_min       = request.args.get('pick_rate_min', type=float)
+    pick_min       = request.args.get('pick_rate_min', default=1.0, type=float)
     pick_max       = request.args.get('pick_rate_max', type=float)
     sort_col       = request.args.get('sort_column', default='Win Rate')
     sort_order     = request.args.get('sort_order',  default='desc')
@@ -76,7 +79,7 @@ def index():
 
 
 
-    header_text = f'Data comes from Unite API as of {date}'
+    header_text = f'Data comes from Unite API as of {date} with {matches:.0f} total games analyzed.'
 
     # Pass movesets + column definitions to template
     return render_template(
